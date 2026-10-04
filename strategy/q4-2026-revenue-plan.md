@@ -189,6 +189,46 @@ Rules can run free forever with no AI at all.
 
 **Next step:** capture Wendy's meal-planning method the way the cleaning method was captured. Then build the cleaning half as a Google Sheet and test it on the 10 beta families.
 
+### Most recent survey: "Can I Ask You Something?" (Sept 17–29, 2026), 56 responses
+**Hardest part right now:**
+- staying consistent with routines: 16
+- balancing marriage, motherhood and everything else: 14
+- keeping up with the house itself: 13
+- meal planning: 5
+- something else: 5
+- homeschool planning and records: 2
+
+**Most true this season:**
+- **"I know what to do, I just can't stick with it": 22 (39%)**
+- something else: 13
+- no system at all: 8
+- had a system and it fell apart: 8
+- don't know where to start: 5
+
+**What stopped them getting help** (pick all that apply):
+- **not sure what would actually work: 29 (52%)**
+- price: 26 (46%)
+- tried before and it didn't stick: 19
+- not enough time: 17
+
+**"Real help with one thing this month"** (my grouping of the written answers):
+- cleaning, house, dishes, declutter: ~14
+- emotional balance, encouragement, prayer, self-care: ~9
+- consistency and routine: ~8
+- meals: ~7
+- homeschool-specific: ~6
+- kids' chores, attitudes, bickering: ~4
+- holiday prep: **0** (the survey ran in mid-September)
+
+**Willing to do a 20–30 minute call:** yes 13, maybe 16, no 25.
+
+**What it means:**
+- **Knowing isn't the gap.** A course or teaching product misses; a tool built for *her* family fits.
+- **The #1 barrier is doubt ("not sure what would work"), ahead of price.** Proof and personalization matter more than a discount.
+- **The house, routines and meals lead,** so the cleaning-and-meal organizer is supported.
+- **Use the 29 yes/maybe-call respondents as the first beta invitations,** and hold 5 short calls this week.
+- **Limit:** 56 responses is directional, not 100+. It agrees with the Aug–Sep STICK opt-ins (287) and the Aug 14 email replies.
+
 ### The combination: four engines, started in order, not all at once
 
 | # | Engine | Starts | Your time | Why it's in |
