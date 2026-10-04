@@ -124,6 +124,21 @@ One offer that joins **Wendy's assessment process**, a **personalized cleaning s
   - **(b) A simple web app on the Claude API.** Smoother for tired moms, but weeks of building, plus logins, payments and data privacy.
 - **Positioning:** sell "Wendy's method, there whenever you need it," not "AI." Disclose AI use plainly. Give it her own brand name, not "Claude." Add one waitlist question to measure how comfortable her audience is with AI.
 
+### Model to study: Meg Kilgore's Reels Editing Engine (The Startup Mom), from Wendy's inbox
+- **What it is:** not an app. A Claude-powered "engine" installed on the buyer's own computer (Mac or Windows). The buyer needs her own paid Claude plan (about $20/mo, paid to Anthropic), plus free CapCut. Free updates, a community, and how-to lessons ("Behind the Reel").
+- **How it was launched:**
+  1. Beta testers in her community, with bug reports folded into the final version.
+  2. A waitlist.
+  3. The cart opened to the waitlist first: $67 for 48 hours ("the lowest it will ever be"), then $97.
+  4. The cart was open for one week, with affiliates (Wendy is one; 2 conversions).
+  5. **400+ buyers on day one** (Sep 30, 2026).
+- **What transfers to Wendy:** the whole launch sequence (beta → waitlist → short early price → one-week cart → affiliates → community). Also packaging her method as an engine that runs on the customer's own Claude, so Wendy has no app to build or host, and her existing clarity-plan skill is already a prototype.
+- **Risk:** Meg's buyers are creator moms who want AI tools for their business. Wendy's buyers are tired homeschool moms with a strong price objection. Requiring a $20/mo Claude plan and a computer install may block many of them.
+- **Test it:**
+  - Add waitlist questions: "Do you already pay for Claude or ChatGPT?" and "Would you use a helper on your computer?"
+  - In the beta, give the engine to testers who already have Claude; Wendy builds plans by hand for the rest. Compare the results.
+- **Watch the promise:** "lowest it will ever be" is the same promise that now limits Bootcamp pricing. Use it only on purpose.
+
 ### The combination: four engines, started in order, not all at once
 
 | # | Engine | Starts | Your time | Why it's in |
