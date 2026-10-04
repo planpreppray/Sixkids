@@ -166,6 +166,29 @@ One offer that joins **Wendy's assessment process**, a **personalized cleaning s
 4. **Scripture and devotional content come from Wendy, never from the model.** No child-facing AI. No child data collected beyond ages and abilities.
 5. **Keep the waitlist question about AI comfort** to measure the actual split.
 
+### Product direction (Wendy, Oct 4): "Wendy's brain, on demand," an organizer, not a course
+**Goal:** moms enter their home and family, then get a cleaning plan and a meal plan built Wendy's way that adapt to their situation. No consultation, no lessons, very affordable, ideally nothing extra for them to pay.
+
+**Key insight:** most of Wendy's method is **rules**, not AI:
+- spaces → tasks by frequency;
+- kids' ages → baseline jobs, which parents can adjust;
+- two tidies a day plus morning chores;
+- meal rotation rules (to be captured).
+
+Rules can run free forever with no AI at all.
+
+**Three ways to package it:**
+
+| Option | Buyer pays | Wendy's cost | Fit for this audience |
+|---|---|---|---|
+| **A. Rules-based planner** (smart Google Sheet or simple web page; fill in your home → auto-built, editable, printable plans) | One-time ~$27–37 | ~$0 to run | **Best:** paper output, no AI worries, no subscription, nothing to install |
+| B. "Bring your own AI" (a Claude Project or prompt kit run on the buyer's free AI plan) | Product price only | $0 | Possible but fragile: she must sign up for an AI account; free-plan limits and features change; results vary; easy to copy and share |
+| C. Hosted web app; Wendy pays the AI costs | ~$5–9/mo or a one-time price | ~$0.20–0.50 per plan generated, plus building and privacy work | Strongest "adapts to anything," but the biggest build. Later, as a membership add-on |
+
+**Recommendation:** build **A** first. It covers cleaning and meals, and the output fits her planner. Add AI later (C) only for the "what do I do when life changes" questions, and only if the waitlist question shows the audience wants it.
+
+**Next step:** capture Wendy's meal-planning method the way the cleaning method was captured. Then build the cleaning half as a Google Sheet and test it on the 10 beta families.
+
 ### The combination: four engines, started in order, not all at once
 
 | # | Engine | Starts | Your time | Why it's in |
