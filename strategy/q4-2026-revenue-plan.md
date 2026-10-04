@@ -44,7 +44,13 @@ Legend: **[V]** verified from a system · **[C]** calculated from verified data 
 - **Clarity calls: promote now.** Fill the 9 remaining $97 beta spots in October, about 2–3 hours each. Collect testimonials, then raise the price to $197.
 - **Small group, $197–297 (instead of $997): optional fifth engine.** A 4-week "Home Reset" group on Zoom, starting early November, capped at 12. Pre-sell it to the people who asked about the group. **Run it only if 6+ seats sell by Oct 30.** Price was the objection at $997, and they named $100–200 as what they could do.
 - **Marriage product:** still a January waitlist test. It has no sales data yet.
-- **Before December:** confirm who ships when the planners arrive (you, family help, or a fulfillment service), so December doesn't swallow you.
+- **December is shipping month (Wendy ships herself; shipping starts in December).**
+  - **Load:** about 343 presale orders already owed, plus everything sold Oct–Nov. That's roughly 500–800 orders, or about **50–90 hours** at 5–7 minutes per order [A].
+  - **Rule:** all live work ends before December. Clarity calls are done by **Nov 20**. The group runs **Nov 2–30**. December gets no new launches, only shipping, scheduled emails, and digital sales.
+  - **Set up in November:** a packing station; the 1,000 mailer boxes; Shopify or Pirate Ship labels printed in batches; a paid family packing crew (a real job for older kids); and a customer-service template for "where's my order."
+  - **Ship in order:** presale orders first (oldest first), then new orders.
+  - **Christmas promise:** say "arrives by Christmas" only after the planners are physically in your hands and you've set a real cutoff. Until then, sell physical planners as "ships in December" and sell Print-at-Home and the Kit as the gifts that can arrive on time.
+  - **Christmas week:** off.
 
 ### Home Systems Kit: paid validation before building (Oct 13–19)
 1. Email the 300 "Why Routines Never Stick" leads, the chore-video commenters, and past Bootcamp buyers.
