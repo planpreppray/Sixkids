@@ -139,6 +139,33 @@ One offer that joins **Wendy's assessment process**, a **personalized cleaning s
   - In the beta, give the engine to testers who already have Claude; Wendy builds plans by hand for the rest. Compare the results.
 - **Watch the promise:** "lowest it will ever be" is the same promise that now limits Bootcamp pricing. Use it only on purpose.
 
+### How the audience feels about AI (research, Oct 4)
+**Wendy's own audience (Gmail, 5 surveys / ~470 responses, ~170 YouTube comment threads, IG captions):**
+- **0 mentions of AI.** She has never told or asked her list about it.
+- **Strong pull toward paper and away from phones:**
+  - 140 of 142 survey respondents use a paper planner ("I've become a paper snob").
+  - "I'm begging homeschool moms to get off their phones" is her best-received values video (7k views, 632 likes, 121 comments, all convicted and anti-phone; several buying phone blockers).
+- **Her positive ChatGPT talk has been with creator peers only, not her audience.**
+
+**Wider research:**
+- **Moms already use AI, quietly, for admin.** 81% of parents have used AI for parenting tasks; 49% for meal planning or grocery lists; two-thirds say it eases their mental load (Lurie Children's, Apr 2026).
+- **Women's AI use now about equals men's** (47% vs 50%), but women are more skeptical (Pew 2026).
+- **Mothers distrust AI companies most of 11 institutions tested** (65% little or no trust), and 80% are unsure how kids' data is used (Count on Mothers 2025).
+- **Practicing Christians use AI more than average** (44% vs 31%), but 83% worry it misreads Scripture (Barna 2025). The Gospel Coalition's AI benchmark rated Claude poorly on Christian questions (Sept 2025; a new edition is due Oct 2026).
+- **Homeschool-specific:** an informal HSLDA poll found ~30% use ChatGPT, mostly for lesson plans, meal plans and schedules.
+- **Christian guidance draws the line at:** AI as mom's back-office admin is acceptable; AI teaching or spiritually forming children is not.
+- **Likely segments:**
+  - Enthusiasts: about 25–30%.
+  - Cautious pragmatists: the majority.
+  - Opposed: a meaningful minority, concentrated in classical and Charlotte Mason circles.
+
+**Implications for Wendy:**
+1. **Don't lead with AI.** Sell Wendy's method and a plan on paper. Use AI behind the scenes so Wendy can serve more families, and disclose that plainly in the FAQ: "I use AI tools to help draft; I personally review every plan."
+2. **The deliverable should be printable and fit the planner.** Pitch it as less screen time and more presence.
+3. **The Meg-style "install Claude + $20/mo" engine is a poor fit for the core audience.** At most, offer it later as an optional add-on for the enthusiast minority, if the waitlist question shows demand.
+4. **Scripture and devotional content come from Wendy, never from the model.** No child-facing AI. No child data collected beyond ages and abilities.
+5. **Keep the waitlist question about AI comfort** to measure the actual split.
+
 ### The combination: four engines, started in order, not all at once
 
 | # | Engine | Starts | Your time | Why it's in |
