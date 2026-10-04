@@ -30,6 +30,47 @@ Legend: **[V]** verified from a system · **[C]** calculated from verified data 
 ### Cash floor (first 14 days)
 **$5,355 balance + freight (unknown) + Shopify, Kajabi and other bills.** Bank accounts are currently slightly negative [V]. **Weeks 1–2 must bring in at least ~$6–9k**, which is why selling what already exists comes first.
 
+### Why things aren't selling: diagnosis (Oct 4, from Kajabi, 4 surveys, email replies, market research)
+
+**1. The STICK funnel never gave the Bootcamp a fair test.**
+- **A missing link.** The day-5 pitch email had **no link** until Sep 16, so ~160 of 287 diagnostic subscribers got a pitch they couldn't click. The resend got 7 clicks.
+- **Only one pitch.** There is a single pitch email, then a survey the next day. No reminder, no deadline, no payment-plan email.
+- **Wrong checkout.** All three "Join" buttons on the sales page go to the old **$147 beta checkout**, while the page shows $197 / 3×$75. The copy still says "brand new," and the testimonials are about the planner, not the Bootcamp.
+- **Sales since the diagnostic launched (Aug 25): 0.** The top of the funnel works: 86% of subscribers opened at least one email and 54% clicked.
+
+**2. The price and format don't match what this audience buys.**
+- **Bootcamp non-buyers (47):** 68% said cost was the reason. "Can't burden my family with one $197 chunk."
+- **The $997 group:** 0 takers. The stated ceiling is about $100–200, and installments matter.
+- **The wider market:** paid products in this niche cluster at **under $50 for tools** (planners, chore charts, checklists, workshops) or **$24–28/month memberships**. Peers' bootcamps live inside memberships, not as standalone $197 courses.
+
+**3. They've told you what they want: a tool, not a course.**
+- **Feb 2026 survey (129 responses), what to make next:** a **simple routine system (morning / cleaning / evening) 38%**, undated planner 19%, notepad 16%, 7-day challenge 12%, mini-course 10%.
+- **Favorite notepad:** Weekly Home Reset, 47%.
+- **Struggles, ranked:** consistency, juggling home and school, housework, kids' chores and cooperation, multiple ages.
+- **Your own emails click the same way:** emails about something tangible got 2.4–4.7% clicks; offers to coach or teach got 0.19%.
+- **Outside proof:** chore charts for several kids sell 17k–76k copies on Etsy at $3–10.
+
+**4. Your highest-reach content has nothing behind it to buy.** The marriage posts and "tired homeschool mom translation" reels earn reach and trust, but they have no offer attached.
+
+**Conclusion:** don't keep pushing the $197 standalone Bootcamp. Sell the thing they asked for, at the price they can say yes to, then offer the Bootcamp as the "with Wendy" step up.
+
+### Revised offer ladder (replaces Engine 3)
+| Step | Offer | Price | Notes |
+|---|---|---|---|
+| Free | "Why Your Routines Never Stick" diagnostic (keep it, it works) | $0 | Point it at the Routine System |
+| Core low-ticket | **Simple Home Rhythm System**: cleaning schedule generator + morning / evening / weekly-reset routine cards + chore system for multiple ages (from existing Bootcamp templates) | $27 founders' price, $37 regular | The #1 survey request. Digital, no shipping. Also an add-on at planner checkout |
+| Core physical | Planner / undated bundle | $59–69 | The tool you run the system in |
+| With Wendy | Bootcamp + 3 live calls, fall cohort | $147, or **3 × $49** | Offered only to people who bought the Rhythm System; 10-seat minimum |
+
+**Pre-sale gate (Oct 7–14):** 40+ Rhythm System sales → build and deliver by Oct 31. Under 15 → refund and fold its templates into the Black Friday planner bonus.
+
+**Fix before any offer goes out:**
+1. Point the sales page buttons to the right checkout.
+2. Unpublish the $147 beta offer.
+3. Add 2 more pitch emails with a real deadline.
+4. Upgrade Kajabi Automations so the funnel can be measured.
+5. Use clicks and sales, not opens, as the scorecard.
+
 ### The combination: four engines, started in order, not all at once
 
 | # | Engine | Starts | Your time | Why it's in |
