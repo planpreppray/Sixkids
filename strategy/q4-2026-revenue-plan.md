@@ -8,6 +8,79 @@ Legend: **[V]** verified from a system · **[C]** calculated from verified data 
 
 ---
 
+## 0. Revision, Oct 4 (after Wendy's answers): run a combination, in a set order
+
+### Facts confirmed
+- **Printer: Guangzhou Xinqicai Printing (Lena Lai), Alibaba Trade Assurance order 308419815001023065** [V, Gmail 7/22]
+  - 1,750 planner units: $10,260
+  - 1,000 mailer boxes: $450
+  - Order total: **$10,710**
+  - Paid 7/21: $5,355
+  - **Balance due: $5,355**, expected within about 2 weeks (Wendy)
+  - The order says "Free shipping," but freight to the US is **not in email** [?]. Lena sent a "card" on 9/30 inside Alibaba messages; check it for the freight and balance request.
+- **Units: 1,750 ordered, but Shopify has only about 1,030 loaded** (255 sold + 775 left) [V]. If all 1,750 are planners, up to ~720 sellable units aren't in the store yet [?]. Confirm the split (dated / undated / Daily Pages).
+- **Unit cost in Shopify:** every planner and bundle SKU shows $19.50; the Daily Pages Companion shows $5.50 [V].
+  - This looks carried over from the last run. The Alibaba order works out to about $5.86/unit before freight [C].
+  - Even at $19.50, gross margin is about **$41 on a $69 bundle** and about $37 on a $59 planner, before payment fees [C].
+  - **A 15–20% Black Friday discount is safe** at either cost.
+- **Affiliate retainers:** CLE $800/mo plus BiblioPlan $275/mo = **$1,075/mo**. **Last payments in December** [Wendy].
+  - Oct–Dec: **$3,225**.
+  - **Starting January this income stops.** Q4 also has to build what replaces it.
+
+### Cash floor (first 14 days)
+**$5,355 balance + freight (unknown) + Shopify, Kajabi and other bills.** Bank accounts are currently slightly negative [V]. **Weeks 1–2 must bring in at least ~$6–9k**, which is why selling what already exists comes first.
+
+### The combination: four engines, started in order, not all at once
+
+| # | Engine | Starts | Your time | Why it's in |
+|---|---|---|---|---|
+| 1 | **Planner sell-through** (undated + dated + Print-at-Home + Daily Pages) | Now | Medium; high when shipping | Proven demand; covers the printer balance |
+| 2 | **Partners** (affiliates, Made2Homeschool Black Friday, co-op/church bulk) + affiliate retainers ($3,225) | Now | Low | Reaches people you don't have |
+| 3 | **New: "Home Systems Kit" digital product** (chore checklists, room cards, routine printables), $27–37 | Pre-sell Oct 13–19; build only if it pre-sells | Medium for 2 weeks, then about zero | Built on your **highest-intent signals**: "STICK" requests, "share your checklists," 300 diagnostic opt-ins in 6 weeks. No shipping. Also works as an order bump on every planner. |
+| 4 | **"Ready for viral" funnel** | Fix in week 1, then always on | Low | Captures the upside if a video takes off. Not counted in base revenue |
+
+**Paused, not cancelled:**
+- **Clarity calls:** stay listed; honor the 9 beta spots.
+- **$997 group:** re-test in January at a price your list can say yes to.
+- **Marriage product:** January waitlist test.
+
+These wait because each needs your live time during the same 6 weeks you'll be packing 1,000+ orders.
+
+### Home Systems Kit: paid validation before building (Oct 13–19)
+1. Email the 300 "Why Routines Never Stick" leads, the chore-video commenters, and past Bootcamp buyers.
+2. Offer a founders' price of $27 (regular $37). Deliver by Nov 1; pull from existing Bootcamp material and the Room Cards beta.
+3. **Build it only if 25+ people buy in 5 days.** Fewer than 10 → refund everyone and drop it. 10–24 → deliver a smaller version to those buyers and don't push it further.
+
+### Viral video: what it can and can't do (math, not hope)
+- **Your best results so far:**
+  - 11.1k views (YouTube).
+  - 14.7k reach / 492 saves on a marriage carousel, with no offer attached.
+  - The best STICK reel got a 5% comment rate on 604 reach.
+- **What a hit looks like in money (estimate):**
+  - 500k views × ~0.7% comment or DM rate ≈ 3,500 leads into email.
+  - ~3% of those buy a $69 planner (~$7k), and ~5% buy a $37 kit (~$6.5k).
+  - **One big hit ≈ $10–20k, if the funnel is ready.**
+- **$100k from one video** would take several million views converting at that rate. That isn't something to schedule or promise yourself.
+- **Make each video able to sell** (STICK → diagnostic → 5-email sequence → planner + kit) and post consistently. Then a hit becomes a bonus you can catch, not a hope you're counting on.
+- **Leaks to fix first:**
+  - Links missing from YouTube descriptions.
+  - STICK on YouTube can't auto-DM, so pin a comment link instead.
+  - The diagnostic currently routes to the Bootcamp (1 sale last quarter). Route it to the planner + kit.
+
+### Revised scenarios (total cash Oct 4 – Dec 31)
+
+| | Conservative | **Base** | Stretch (with one viral hit) |
+|---|---|---|---|
+| Planners, Print-at-Home, bulk | $11.6k | **$26.6k** | $49k |
+| Affiliate retainers (verified amounts) | $3.2k | **$3.2k** | $3.2k |
+| Home Systems Kit | $0 (failed validation) | **$5.5k** (150 × $37) | $15k |
+| Sponsor deals / Clarity / other | $0.3k | **$1k** | $3k |
+| **Total** | **≈ $15k** | **≈ $36k** | **≈ $70k** |
+
+$100k is still outside a defensible range for this window. A plan that makes $36k, covers the printer, and builds the funnel and products that replace the affiliate retainers in January is a much stronger position going into 2027.
+
+---
+
 ## 1. Candid answer: is $100k plausible by Dec 31?
 
 **No. Not defensibly.** A realistic base case is about **$30–35k**. A stretch case is about **$55–60k**, and only if partners deliver audiences you don't have.
@@ -16,7 +89,7 @@ Legend: **[V]** verified from a system · **[C]** calculated from verified data 
 |---|---|
 | Shopify net sales, last 12 months (Oct 2025–Sep 2026) | **$42,734** [V/C] |
 | Kajabi revenue, 2026 YTD | **$649** [V] |
-| Affiliate income (CLE $800/mo + BiblioPlan ~$8k/yr) | ~$17k/yr [V email/Fathom, amounts partly A] |
+| Affiliate retainers (CLE $800/mo + BiblioPlan $275/mo, ending Dec 2026) | $12.9k/yr [V, Wendy] |
 | **All-in trailing 12 months** | **≈ $60k** [C] |
 | Last Q4 (Oct–Dec 2025), Shopify | $12,011 [V] |
 | Best single month ever | $10,747 (Jul 2026 presale) [V] |
