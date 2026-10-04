@@ -1,0 +1,295 @@
+# Plan Prep Pray: Q4 2026 Revenue Plan (Oct 4 – Dec 31, 2026)
+
+**Goal as defined by Wendy:** $100,000 *total cash collected* Oct 4 – Dec 31, 2026 (all sources count).
+**Constraints given:** 30+ hrs/week stated, $0 upfront budget.
+**Audit date:** 2026-10-04. Sources: Shopify, Kajabi, QuickBooks, Gmail, Fathom, Google Drive/Calendar, Metricool, vidIQ (all read-only).
+
+Legend: **[V]** verified from a system · **[C]** calculated from verified data · **[A]** assumption · **[?]** missing
+
+---
+
+## 1. Candid answer: is $100k plausible by Dec 31?
+
+**No. Not defensibly.** A realistic base case is about **$30–35k**. A stretch case is about **$55–60k**, and only if partners deliver audiences you don't have.
+
+| Benchmark | Number |
+|---|---|
+| Shopify net sales, last 12 months (Oct 2025–Sep 2026) | **$42,734** [V/C] |
+| Kajabi revenue, 2026 YTD | **$649** [V] |
+| Affiliate income (CLE $800/mo + BiblioPlan ~$8k/yr) | ~$17k/yr [V email/Fathom, amounts partly A] |
+| **All-in trailing 12 months** | **≈ $60k** [C] |
+| Last Q4 (Oct–Dec 2025), Shopify | $12,011 [V] |
+| Best single month ever | $10,747 (Jul 2026 presale) [V] |
+| September 2026, Shopify | $583 [V] |
+| $100k in 88 days requires | **$1,136/day**, vs. ~$19/day in Sept |
+
+$100k in 13 weeks is about **1.7× your entire last year** and **about 7× your best quarter**. Here is what $100k would take on each path:
+
+- **Planners:** about **1,500–1,700 units at about $57 realized**. That is more than all the 2027–28 stock loaded in Shopify (775 unsold planners). It is 3× the "500 sold out in 5 months" record, and more than every Shopify customer you have ever had (1,027).
+- **$997 group coaching:** 100 buyers. Evidence so far: 5 said they were interested and **0 bought**. Price was the #1 objection.
+- **$197 Clarity Consultation:** 508 sessions, which is about **760+ hours of calls** before writing any plans. Evidence: **1 of 10 beta spots sold at $97**, and the beta email got a 0.19% click rate.
+- **$197 Bootcamp:** 508 buyers. Evidence: 15 lifetime buyers, with sales trending 12 → 2 → 1.
+
+Chasing $100k would push you into one of two failure modes:
+- A deep discount fire-sale of next year's planners, which wrecks your spring 2027 season and your margins.
+- Selling high-ticket coaching to an audience that has told you clearly it can't afford it right now.
+
+Neither fits your convictions or your family's capacity.
+
+**Recommended reframe.** Commit to a **$35k base target**, with a written stretch of $55k. Also set a **cash-safety floor**: the printer balance and fixed bills are covered by mid-November.
+
+### Red flags from the audit you need to see
+
+1. **Cash is tight now.** About 54 "insufficient funds" alerts in 90 days [V]: Kajabi $179 failed repeatedly in September, plus Shopify and Metricool. A PayPal Credit hardship notice arrived 10/2 [V].
+2. **The books aren't reconciled.** QuickBooks shows $33,375 in "Undeposited Funds" and all bank accounts slightly negative [V]. That $33k is **not spendable cash**; it is unmatched Shopify deposits. No Kajabi revenue is recorded in QuickBooks [V]. P&L reports are blocked until the company "industry" field is set [V].
+3. **Margins are unknown.** Implied 2026 net margin is about 9% [C, unverified]. Per-unit print cost and the printer balance due are **missing** [?].
+4. **Kajabi costs more than it earns directly.** About $2,148/yr in fees vs. $649 of Kajabi revenue YTD [C]. It does run your 4,236-person email list, so this is a post-Q4 decision, not a Q4 one.
+5. **Hours conflict.** You said 30+ hrs/week. The homeschool schedules in Drive (7am–5pm teaching touchpoints), plus Made2Homeschool commitments (~2–3 hrs/week), suggest **10–20 realistic hours** [A]. This plan is sized to ~20 hrs/week, with a November–December shipping peak.
+6. **Next school year is already on order.** The 2027–28 dated planners cover **July 2027–June 2028** [V]. Selling them in November–December pulls spring 2027 sales forward. That helps Q4 cash, but it is not new demand.
+
+---
+
+## 2. What the audit found
+
+### Offers, sales, and results
+| Offer | Price | Evidence of demand | Verdict |
+|---|---|---|---|
+| Physical planner / bundle | $59 / $69 | 1,369 orders, $62.4k net in 24 months; 24.9% repeat rate; 2027–28 presale ≈ 255 planners in ~3 months [V] | **Proven** core product (~97% of revenue) |
+| Print-at-Home 2026–27 | $29 | 53 sold since Aug, with no inventory or shipping [V] | Proven, zero fulfillment |
+| Daily Pages Companion | $17 | Frequent add-on, 115 in stock [V] | Proven add-on |
+| Home Systems Bootcamp | $147–197 | 15 buyers lifetime ($2,233); community dormant [V] | Weak as a standalone offer |
+| Clarity Consultation | $197 ($97 beta) | 1 paid sale; the one delivered call went well [V] | Unproven; heavy fulfillment |
+| $997 small group | $997 | 5 interested, 0 paid; price objection [V] | Unproven |
+| Memberships / old courses | $8–50 | Net MRR $0; 0 new subscriptions in 24 months [V] | Dead; leave them dead |
+| Affiliates (CLE, BiblioPlan, Teaching Textbooks) | — | ~$1.5k/month combined [V/A] | Proven, low effort |
+
+### Unsold inventory: your biggest Q4 lever [V, Shopify live inventory]
+| Item | Units left | List value |
+|---|---|---|
+| Garden Grace bundle (dated) | 239 | $16,491 |
+| Everyday Beauty bundle (dated) | 163 | $11,247 |
+| Simply Faithful bundle (**undated**) | 161 | $11,109 |
+| Garden Grace planner (dated) | 95 | $5,605 |
+| Simply Faithful planner (**undated**) | 80 | $4,720 |
+| Everyday Beauty planner (dated) | 37 | $2,183 |
+| Daily Pages Companion | 115 | $1,955 |
+| **Total** | **775 planners + 115 companions** | **≈ $53,300 at full price** |
+
+The documents say 1,500 planners were ordered from the printer. Shopify has about 1,030 loaded (255 sold + 775 left). **Up to ~470 more units may not be loaded yet [?].**
+
+### Audience: views vs. buyers
+- **Email: 4,236 contacts [V], the best asset you have.** Opens run 27–31%. Clicks are 2.4–4.7% on planner emails and 0.19% on the Clarity email.
+- **YouTube: 19k subscribers.** 163k views in 90 days, about 3.3 uploads a week. Comments like "Stick! Please I need this" and "I don't see the link for the scheduling help" show **real intent, and leaks from missing links**.
+- **Instagram: 7.1k followers.** Marriage posts get the most reach (14.7k, 492 saves) but have **no offer attached**. The routines and home-systems reels (STICK) get the highest comment rate, about 5%.
+- **TikTok: 2.2k followers.** Growing, but there is no measurable path to a link.
+- **Facebook: 262 followers, about 8 link clicks a year.** A vanity channel.
+- Estimated clicks to offers from all social: **about 170–350 a month [A]**. Followers are not buyers. **Your list and your past customers are the buyers.**
+
+### What buyers say (from email replies, surveys, and calls)
+- Pains: mixed ages; keeping house plus school; "I use my planner but usually after the day is done, not before"; overcrowded lists; burnout; toddlers.
+- Objections: **cost** (dominant, in both the 2025 and 2026 surveys); timing; "husband needs to be on board"; doubt that one session is enough.
+- The willingness to pay is real, but it sits at **$29–$200**, not at $997.
+
+---
+
+## 3. The paths compared
+
+| Path | Price | Buyers needed for $100k | Reachable audience | Conversion evidence | Cost | Time to cash | Your workload |
+|---|---|---|---|---|---|---|---|
+| **A. Sell through printed planner stock** | $59–69 | ~1,600 | 4,236 list, 1,027 past customers, partners | Strong: presales sell hundreds | Printing already ordered; shipping supplies | Immediate | Packing ~400–700 orders |
+| B. Partner distribution (affiliates, co-ops, M2H) | $45–69 | — (multiplies A) | Other people's audiences (BRAVE drew 1,839 families) | Moderate: 4 presale affiliates, ~30 sales from one | 15–20% commission or wholesale discount | Immediate to net-30 | Outreach, not delivery |
+| C. Print-at-Home digital | $29 | 3,450 | Same | Proven, small | $0 | Immediate | None |
+| D. $997 group | $997 | 100 | Price-sensitive list | 0 of 5 interested bought | $0 | Immediate | 6 clients per group; high touch |
+| E. Clarity 1:1 | $197 | 508 | Same | 1 of 10 beta | $0 | Immediate | ~2.5 hrs per client |
+| F. Bootcamp | $197 | 508 | Same | Declining | $0 | Immediate | Low, but no pull |
+| G. Sponsorships (YouTube) | ~$500–1,500 each [A] | 70+ deals | Brands | Existing CLE, BiblioPlan, TT; ZenoWell inquiry | $0 | Often net-30 | Filming |
+| H. Marriage product (new) | ? | ? | Top-reach content | **Zero sales data** | Build time | Weeks | High |
+
+### Scenarios (total cash, Oct 4 – Dec 31)
+
+| | Conservative | **Base** | Stretch |
+|---|---|---|---|
+| Planner units sold (avg ~$57 realized) | 180 → $10.3k | **380 → $21.7k** | 650 → $37.0k |
+| Bulk / co-op orders (~$45/unit) | 0 | **40 → $1.8k** | 120 → $5.4k |
+| Print-at-Home ($26 avg) | 50 → $1.3k | **120 → $3.1k** | 250 → $6.5k |
+| Affiliates + sponsorships | $4.5k | **$6.0k** | $9.0k |
+| Clarity / Bootcamp (passive) | $0.3k | **$1.0k** | $2.0k |
+| **Total cash** | **≈ $16k** | **≈ $34k** | **≈ $60k** |
+
+Assumptions:
+- CLE continues at $800/month [A].
+- Affiliate checks paid in December may land in January, which would put them outside the window [A].
+- The base case needs about 4–9% of your list to buy once, which is in line with past presales.
+- The stretch case needs 2–3 partners to each move 50+ units.
+
+---
+
+## 4. Recommendation
+
+### Primary path: sell what's already printed, honestly and steadily
+**"Start fresh in January: one place to plan home, homeschool and heart, so you plan *before* the day instead of after it."**
+
+- **Buyer:** a Christian homeschool mom of several kids at mixed ages who also runs the home. She has tried planners before, and many have bought from you before.
+- **Lead offer for Q4:**
+  1. **Simply Faithful undated bundle, $69.** It can start in January, so it fits the season.
+  2. **Print-at-Home 2026–27, $29.** For moms who want to start the second semester right away, with no shipping.
+  3. **2027–28 dated planners, $59–69.** Presented honestly: "next school year, in hand early, limited print run." This also works as a Christmas gift.
+  4. Bonus for orders placed during Black Friday week only: access to the **Home Systems Bootcamp**. It is already built and self-paced, with no live delivery.
+- **Promise you can keep:** a tool and a simple weekly planning rhythm. Not a transformed life.
+- **Sales mechanism:**
+  - Shopify checkout.
+  - Your email list, segmented: past buyers, waitlist people who didn't buy, STICK leads, Bootcamp buyers.
+  - A weekly YouTube video with the planner in context.
+  - Affiliate codes (the system you already use).
+  - Real stock counts as the only scarcity.
+
+**Why this beats the alternatives:**
+- It is the only path with proven conversion at scale.
+- The cost is already sunk, and the cash arrives the day of the sale.
+- It doesn't create new fulfillment beyond packing.
+- It turns a liability (inventory) into cash at a moment when cash is tight.
+
+### Supporting path: partner distribution (audiences you don't have)
+1. **Made2Homeschool.** Ask to include the planner in M2H's month-long Black Friday sale, so the two promotions work together instead of competing for the same buyers.
+2. **Affiliates.** Re-activate the 4 presale affiliates and recruit 6–10 homeschool creators, offering a 15–20% commission and a personal code.
+3. **Bulk orders.** Offer co-ops, church women's ministries and homeschool groups a 10-unit minimum at about $45 each, prepaid through a QuickBooks payment link.
+
+### Stop doing (to make room)
+- **Do not launch the $997 group or promote Clarity in Q4.** Leave the Clarity page live and quietly honor the remaining beta spots.
+- **Don't build the marriage product.** Bank it for January, and test it with a waitlist before building anything.
+- **Stop posting on Facebook and the planpreppraypaper account.** No new products (Room Cards and similar).
+- **Cut Shorts volume** to repurposing only, and stop editing old backlog videos that have no sales purpose.
+- **Pause buying more programs in Q4** (YouTubepreneur extension, Print School, Bingeable) while "insufficient funds" alerts are firing. This is your call, but the numbers argue for pausing.
+- **Stop sending STICK leads to the Bootcamp pitch.** Send them to the planner and Print-at-Home.
+
+---
+
+## 5. Paid validation: 7 days, nothing to build (Oct 5–11)
+1. **Fix the leaks (day 1):** pinned YouTube comments with the STICK and planner links, and the missing scheduling link.
+2. **Email 1 (Tue Oct 6), to past buyers and waitlist non-buyers:** "Planning before the day, not after." Undated bundle for a January start, plus Print-at-Home for right now.
+3. **Email 2 (Fri Oct 9), to the full list:** the same offer with a walkthrough video.
+4. **Send 15 partner asks:**
+   - Made2Homeschool: Black Friday inclusion.
+   - The 4 existing affiliates.
+   - 6 new creators.
+   - 4 co-op or church bulk offers.
+
+| Result by Oct 12 | Decision |
+|---|---|
+| ≥ 50 planner units **and** ≥ 2 partner yeses | **Continue on base plan ($34k)** |
+| 25–49 units, or only 0–1 partner yes | **Adjust:** conservative target; double partner outreach; lead with Print-at-Home |
+| < 25 units | **Stop pushing dated stock in Q4.** Protect cash, sell undated and digital, and hold dated planners for spring 2027 |
+
+---
+
+## 6. Weekly revenue and execution plan
+
+Rhythm: ~20 focused hours a week. Sabbath kept, Thanksgiving Day kept, Christmas week off.
+
+| Week | Focus | Key actions | Cash target | Cumulative |
+|---|---|---|---|---|
+| 1 · Oct 5–11 | Validation | Fix links; 2 emails; 15 partner asks; set the QuickBooks industry field so P&L runs; confirm printer balance and ship date | $2,500 | $2.5k |
+| 2 · Oct 12–18 | Decide | Score the validation; sign affiliates; bulk price sheet | $1,500 | $4.0k |
+| 3 · Oct 19–25 | Second semester | Second-semester reset email and video; STICK → planner | $1,500 | $5.5k |
+| 4 · Oct 26–Nov 1 | Get ready to ship | Shipping supplies, packing station, family packing plan (paid kids' jobs?) | $1,500 | $7.0k |
+| 5 · Nov 2–8 | In stock? | If inventory has arrived, "Now shipping" email; if not, keep it a preorder with an honest ship date | $2,000 | $9.0k |
+| 6 · Nov 9–15 | Fulfill | Ship presale orders first; protect these hours | $1,500 | $10.5k |
+| 7 · Nov 16–22 | Early access | Black Friday early access for past buyers; affiliates briefed | $2,500 | $13.0k |
+| 8 · Nov 23–29 | **Black Friday** | M2H sale live; Thanksgiving email is gratitude with no pitch; Black Friday opens Fri | $7,000 | $20.0k |
+| 9 · Nov 30–Dec 6 | Cyber Monday and gifts | Cyber Monday closes Mon; gift guide (with affiliate partners) | $5,000 | $25.0k |
+| 10 · Dec 7–13 | Ship-by-Christmas | Honest last-ship date (~Dec 12–14) | $3,500 | $28.5k |
+| 11 · Dec 14–20 | Digital only | Print-at-Home as a "January reset" gift | $2,000 | $30.5k |
+| 12 · Dec 21–27 | **Rest** | One pre-scheduled email | $500 | $31.0k |
+| 13 · Dec 28–31 | January reset | Undated + Print-at-Home; year-end thank-you | $2,000 | **$33.0k** + affiliate checks |
+
+---
+
+## 7. Content and email plan (every piece points to the planner)
+
+**YouTube: 1 long-form video a week (Tuesday).** These are the topics with proven intent: routines, chores, planning before the day, and the mid-year reset.
+
+| Week | Video |
+|---|---|
+| 1 | "I was using my planner *after* the day. Here's what changed" (undated walkthrough) |
+| 2 | "How I get 6 kids to do chores": a follow-up to your top-intent video, showing the chore pages |
+| 3 | "Second semester homeschool reset" |
+| 4 | "Homeschool room tour: where planning actually happens" |
+| 5 | Unboxing the 2027–28 planner, if it has arrived |
+| 6 | "Planning a homeschool week with mixed ages" |
+| 7 | "Planning around the holidays without losing December" |
+| 8 | Homeschool mom gift guide (planner plus partner affiliates) |
+| 9 | "What I'm keeping and quitting next year" (your BRAVE "Let It Go" talk, repurposed) |
+| 10 | "Your January reset, in one hour" |
+| 13 | "Plan your second semester with me" |
+
+**Instagram and TikTok: 4 reels a week, made once and cross-posted.**
+- 2 on routines or home systems, using the STICK keyword to deliver the diagnostic and then the planner.
+- 1 on marriage or family, kept for reach. Tie it to the planner only where it's natural.
+- 1 behind the scenes: packing orders, or a customer using the planner (with permission).
+- **Facebook: stop.**
+
+**Email: Tuesday teaching, Friday offer.** Segment by past buyers, waitlist non-buyers, STICK leads, and Bootcamp buyers.
+
+Black Friday week sequence:
+- **Mon:** early access for past buyers
+- **Thu (Thanksgiving):** a gratitude note only, no pitch
+- **Fri:** sale opens
+- **Sun:** reminder
+- **Mon:** Cyber Monday, last day
+
+December:
+- **Dec 8:** ship-by-Christmas
+- **Dec 14:** last ship day
+- **Dec 29:** January reset
+
+**Copy rules (your convictions):**
+- Real stock counts only.
+- No fake countdowns.
+- No shame ("so you're not the 'missed it' DM" style lines).
+- No promises of transformation.
+- Every email tells one true story or one true teaching and makes one clear offer.
+
+---
+
+## 8. Scorecard and decision points
+
+**Weekly scorecard (Monday, 15 minutes):**
+
+| Metric | Base weekly target |
+|---|---|
+| Cash collected (Shopify + Kajabi + affiliates) | Per table above |
+| Planner units sold / units left | ~30/week (Oct), ~100+/week (Black Friday) |
+| Orders per planner email | ≥ 15 |
+| Planner email click rate | ≥ 2.5% |
+| Partner yeses (cumulative) | 2 by Oct 12 → 5 by Nov 1 |
+| Shipping backlog (orders > 5 days unshipped) | 0 |
+| Business hours worked | ≤ 20 (outside Black Friday) |
+| Sabbath and family dinners kept | Yes / No |
+
+**Decision points:**
+- **Oct 12 (validation):** continue, adjust or stop (see section 5).
+- **Nov 1 (pace check):**
+  - Below $6k cumulative → drop to the conservative plan and keep the dated stock for spring.
+  - Above $9k → add 5 more partners.
+- **Nov 15 (cash floor):** confirm the printer balance and bills are covered. If not, pause all spending and run a single focused sell-through email.
+- **Dec 2 (after Black Friday and Cyber Monday):** below $18k → no more planner promotions in December beyond the shipping reminders.
+- **Dec 31 (review):**
+  - Count the units left.
+  - Decide whether Kajabi stays.
+  - Decide the next print run's size from real sell-through.
+  - Test the marriage offer with a waitlist only.
+
+---
+
+## 9. What I still need from you (these change the plan)
+1. **Printer:** the total invoice, the balance still owed, and its due date. Also, are all 1,500 units real? Shopify has about 1,030 loaded. This sets the cash floor and how much stock to push.
+2. **Landed cost per planner** (print + freight + packaging). This sets how deep any Black Friday discount can safely go. Recommendation until known: **no discount deeper than 15%**.
+3. **Is the CLE $800/month contract active through December?**
+
+## What I could not access
+- QuickBooks P&L and cash flow: blocked until the company industry field is set.
+- Google Forms responses: Clarity intake, launch-team applications.
+- Instagram DMs and link-in-bio taps (data unavailable).
+- YouTube description-link clicks.
+- Kajabi automations (legacy) and reliable email delivery stats (the fields are broken).
+- Kickstarter revenue from 2024.
