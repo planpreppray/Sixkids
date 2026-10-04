@@ -86,6 +86,33 @@ Legend: **[V]** verified from a system · **[C]** calculated from verified data 
   - **Don't promise "lowest price ever" for the beta** unless you're sure you want to be bound by it.
   - The printer money ($5,355) comes from planner emails, not from this.
 
+### Combined offer concept (Wendy, Oct 4): "Family Rhythm Reset" (working name)
+One offer that joins **Wendy's assessment process**, a **personalized cleaning schedule** (the generator method) and the **Home Systems Bootcamp**.
+
+1. **Intake.** A written questionnaire built from Wendy's process:
+   - what feels hard;
+   - the whole family picture (kids' ages and stages, husband's involvement, support);
+   - what "keeping up" means to her;
+   - where the day breaks down (meals, toddlers, evenings, marriage).
+2. **Personalized plan, made with Wendy's discernment.** A Clarity Plan, Family Rhythm Sheet and cleaning schedule (spaces → tasks by frequency → who does what by age). Drafted with the existing clarity-plan skill, then reviewed and adjusted by Wendy. An optional 30-minute call replaces the 90-minute consult.
+3. **Bootcamp access** for the how and why, plus **3 live group calls**.
+4. **The outcome she promised:** "margin, presence, joy," meaning a home that runs well enough for her to actually live her life.
+
+**Why this shape:**
+- It answers the #1 survey ask (a simple routine system) and the done-for-you requests ("someone else tells me the priorities," "shadow me").
+- It's what makes Wendy different: she adjusts the plan to each family instead of giving everyone the same advice.
+- It needs about 1–1.25 hours of her time per family instead of 2.5+ hours.
+
+**Price and the promise:** the offer includes the Bootcamp, so it can never sell below $147, beta included.
+- **Option 1:** beta at $147 (equal to, not below, the promise), launch at $197 or 4 × $52.
+- **Option 2:** the beta covers only the intake, plan and cleaning schedule, at a lower price, with the Bootcamp as an upgrade at $167 or more.
+
+**Validation:**
+- Waitlist Oct 6–12, then 10 paid beta families Oct 13 – Nov 14. Done by hand with a Google Sheet; the 10 families teach the generator its baselines.
+- Public launch as the **January reset** (peak season for this).
+
+**Why it matters for 2027:** about 6 sales a month at $197 replaces the $1,075/mo affiliate retainers that end in December.
+
 ### The combination: four engines, started in order, not all at once
 
 | # | Engine | Starts | Your time | Why it's in |
