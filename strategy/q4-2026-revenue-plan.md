@@ -71,6 +71,21 @@ Legend: **[V]** verified from a system · **[C]** calculated from verified data 
 4. Upgrade Kajabi Automations so the funnel can be measured.
 5. Use clicks and sales, not opens, as the scorecard.
 
+### Update (Oct 4, later): generator status, Bootcamp price floor, waitlist plus beta
+- **Cleaning schedule generator: concept stage only** (Claude Code session, Sep 7).
+  - Locked so far: 16 space templates plus custom spaces; tasks live inside each space and are tagged daily / weekly / monthly / seasonal; age-based default assignments that parents can edit; two tidies a day plus morning chores.
+  - **Not yet done:** the task baselines per space, the age baselines, and any build. The working file `space-baseline-tasks.md` is on Wendy's PC.
+- **Bootcamp price floor:** $147 is promised as the lowest price ever, so it is never offered again. $167 keeps that promise.
+  - Cost was the #1 non-buyer reason (32 of 47). Several also said "we don't have $147," so a $30 cut will help only a little.
+  - **Bigger levers:** a lower installment (e.g. 4 × $45 instead of 3 × $75), a Bootcamp + planner bundle, and links that actually work.
+- **Waitlist, then paid beta (Wendy's idea, adopted):**
+  - Waitlist open Oct 6–12, with one qualifying question.
+  - Then offer **10 paid beta spots** to the first 10 on the waitlist. The rest wait for launch.
+  - Beta runs Oct 13 – Nov 7. Wendy builds each tester's schedule using her method in a simple Google Sheet. That's how the task and age baselines get built from real families.
+  - **Signal to build:** at least 100 on the waitlist **and** beta spots fill within 48 hours. **Don't build:** fewer than 40 on the waitlist, or spots still open after a week.
+  - **Don't promise "lowest price ever" for the beta** unless you're sure you want to be bound by it.
+  - The printer money ($5,355) comes from planner emails, not from this.
+
 ### The combination: four engines, started in order, not all at once
 
 | # | Engine | Starts | Your time | Why it's in |
