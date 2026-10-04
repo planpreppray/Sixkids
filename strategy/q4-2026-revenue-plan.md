@@ -36,26 +36,33 @@ Legend: **[V]** verified from a system · **[C]** calculated from verified data 
 |---|---|---|---|---|
 | 1 | **Planner sell-through** (undated + dated + Print-at-Home + Daily Pages) | Now | Medium (you are not shipping now; planners are expected in December) | Proven demand; covers the printer balance |
 | 2 | **Partners** (affiliates, Made2Homeschool Black Friday, co-op/church bulk) + affiliate retainers ($3,225) | Now | Low | Reaches people you don't have |
-| 3 | **New: "Home Systems Kit" digital product** (chore checklists, room cards, routine printables), $27–37 | Pre-sell Oct 13–19; build only if it pre-sells | Medium for 2 weeks, then about zero | Built on your **highest-intent signals**: "STICK" requests, "share your checklists," 300 diagnostic opt-ins in 6 weeks. No shipping. Also works as an order bump on every planner. |
+| 3 | **Home Systems Bootcamp, run LIVE as a fall cohort** (it's already built), $147–197 with a 2-payment option | Pre-sell Oct 6–16; cohort Oct 19 – Nov 29 | About 2–3 hrs/week of live calls | Your only Bootcamp launch that sold well was the live beta (12 buyers, Sept 2025). Evergreen has sold 3 since. Your "STICK" leads are the audience. **No new product gets built.** |
 | 4 | **"Ready for viral" funnel** | Fix in week 1, then always on | Low | Captures the upside if a video takes off. Not counted in base revenue |
 
 **Correction (Wendy, Oct 4): you are not shipping right now.** October and most of November are open business time. Front-load the work that needs you live, and keep December light for whenever the planners arrive.
 
 - **Clarity calls: promote now.** Fill the 9 remaining $97 beta spots in October, about 2–3 hours each. Collect testimonials, then raise the price to $197.
-- **Small group, $197–297 (instead of $997): optional fifth engine.** A 4-week "Home Reset" group on Zoom, starting early November, capped at 12. Pre-sell it to the people who asked about the group. **Run it only if 6+ seats sell by Oct 30.** Price was the objection at $997, and they named $100–200 as what they could do.
+- **The $997 group is replaced by the live Bootcamp cohort.** It's the same idea (a group, live help) at a price your list said it can do ($100–200). Invite the people who asked about the group first.
 - **Marriage product:** still a January waitlist test. It has no sales data yet.
 - **December is shipping month (Wendy ships herself; shipping starts in December).**
   - **Load:** about 343 presale orders already owed, plus everything sold Oct–Nov. That's roughly 500–800 orders, or about **50–90 hours** at 5–7 minutes per order [A].
-  - **Rule:** all live work ends before December. Clarity calls are done by **Nov 20**. The group runs **Nov 2–30**. December gets no new launches, only shipping, scheduled emails, and digital sales.
+  - **Rule:** all live work ends before December. Clarity calls are done by **Nov 20**. The Bootcamp cohort runs **Oct 19 – Nov 29**. December gets no new launches, only shipping, scheduled emails, and digital sales.
   - **Set up in November:** a packing station; the 1,000 mailer boxes; Shopify or Pirate Ship labels printed in batches; a paid family packing crew (a real job for older kids); and a customer-service template for "where's my order."
   - **Ship in order:** presale orders first (oldest first), then new orders.
-  - **Christmas promise:** say "arrives by Christmas" only after the planners are physically in your hands and you've set a real cutoff. Until then, sell physical planners as "ships in December" and sell Print-at-Home and the Kit as the gifts that can arrive on time.
+  - **Christmas promise:** say "arrives by Christmas" only after the planners are physically in your hands and you've set a real cutoff. Until then, sell physical planners as "ships in December" and sell Print-at-Home as the gift that can arrive on time.
   - **Christmas week:** off.
 
-### Home Systems Kit: paid validation before building (Oct 13–19)
-1. Email the 300 "Why Routines Never Stick" leads, the chore-video commenters, and past Bootcamp buyers.
-2. Offer a founders' price of $27 (regular $37). Deliver by Nov 1; pull from existing Bootcamp material and the Room Cards beta.
-3. **Build it only if 25+ people buy in 5 days.** Fewer than 10 → refund everyone and drop it. 10–24 → deliver a smaller version to those buyers and don't push it further.
+### The one funnel (no separate "Home Systems Kit"; that idea is dropped as redundant)
+```
+Video/post → "STICK" → free PDF: Why Your Routines Never Stick
+           → "Routines That Stick" email sequence (7 emails)
+           → Offer A (Oct 6–16): Home Systems Bootcamp LIVE fall cohort ($147–197, 2 payments)
+           → Offer B (always): the planner, as the tool you run the system in
+           → After the cohort closes: Bootcamp goes back to evergreen self-paced, and becomes a Black Friday bonus with planner orders
+```
+**Validation gate:** 10+ cohort seats paid by Oct 16 → run it. Fewer than 10 → refund, offer those buyers a Clarity call instead, and keep the Bootcamp self-paced.
+
+**Check first:** Kajabi shows the "Routines That Stick" sequence with **0 subscribers**, while the STICK form has 300 submissions. The sequence may not actually be firing. If so, 300 leads never got the Bootcamp pitch, and that alone explains zero sales.
 
 ### Viral video: what it can and can't do (math, not hope)
 - **Your best results so far:**
@@ -64,14 +71,14 @@ Legend: **[V]** verified from a system · **[C]** calculated from verified data 
   - The best STICK reel got a 5% comment rate on 604 reach.
 - **What a hit looks like in money (estimate):**
   - 500k views × ~0.7% comment or DM rate ≈ 3,500 leads into email.
-  - ~3% of those buy a $69 planner (~$7k), and ~5% buy a $37 kit (~$6.5k).
+  - ~3% of those buy a $69 planner (~$7k), and ~1–2% join a $197 Bootcamp (~$7–14k).
   - **One big hit ≈ $10–20k, if the funnel is ready.**
 - **$100k from one video** would take several million views converting at that rate. That isn't something to schedule or promise yourself.
-- **Make each video able to sell** (STICK → diagnostic → 5-email sequence → planner + kit) and post consistently. Then a hit becomes a bonus you can catch, not a hope you're counting on.
+- **Make each video able to sell** (STICK → diagnostic → email sequence → Bootcamp + planner) and post consistently. Then a hit becomes a bonus you can catch, not a hope you're counting on.
 - **Leaks to fix first:**
   - Links missing from YouTube descriptions.
   - STICK on YouTube can't auto-DM, so pin a comment link instead.
-  - The diagnostic currently routes to the Bootcamp (1 sale last quarter). Route it to the planner + kit.
+  - Confirm the STICK form actually adds people to the "Routines That Stick" sequence (Kajabi shows 0 subscribers in it).
 
 ### Revised scenarios (total cash Oct 4 – Dec 31)
 
@@ -79,11 +86,11 @@ Legend: **[V]** verified from a system · **[C]** calculated from verified data 
 |---|---|---|---|
 | Planners, Print-at-Home, bulk | $11.6k | **$26.6k** | $49k |
 | Affiliate retainers (verified amounts) | $3.2k | **$3.2k** | $3.2k |
-| Home Systems Kit | $0 (failed validation) | **$5.5k** (150 × $37) | $15k |
-| Sponsor deals / Clarity / other | $0.3k | **$1k** | $3k |
-| **Total** | **≈ $15k** | **≈ $36k** | **≈ $70k** |
+| Bootcamp live cohort + Clarity | $0.9k (cohort fails; 9 Clarity calls) | **$4.4k** (20 seats × ~$177 + 9 Clarity) | $12k |
+| Sponsor deals / other | $0 | **$0.5k** | $3k |
+| **Total** | **≈ $16k** | **≈ $35k** | **≈ $67k** |
 
-$100k is still outside a defensible range for this window. A plan that makes $36k, covers the printer, and builds the funnel and products that replace the affiliate retainers in January is a much stronger position going into 2027.
+$100k is still outside a defensible range for this window. A plan that makes $35k, covers the printer, and builds the funnel and products that replace the affiliate retainers in January is a much stronger position going into 2027.
 
 ---
 
