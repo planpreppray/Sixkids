@@ -31,6 +31,16 @@ The product is a diagnosis plus a fitted plan, **not** more teaching.
 
 ---
 
+## 2a. The six-step process (Wendy's refined version, Oct 4)
+1. **"Walk me through your day."** Listen for what actually happens: her energy, how much depends on her, what the children know to do, what help she has, and when the overwhelm starts. Notice what the family loves and wants to protect.
+2. **Ask what she thinks the problem is.** Her assessment matters. What does she want to change? What would bring the most relief? Hold your own observations alongside hers.
+3. **Find what's blocking that goal.** Look for the one change that would create breathing room. Sometimes that's the morning. Sometimes it's protecting quiet time, or meeting a toddler's needs before changing homeschool.
+4. **Ask deeper questions to test possible solutions.** Check each idea against her children, space, support, convictions and past experience. When an answer rules something out, adjust the suggestion.
+5. **Choose one thing to try together.** Explain how it could help, and agree on an approach she can realistically use. Let that first change create room before deciding what else needs attention.
+6. **Follow up on what actually happened.** What feels easier, unchanged or harder? What does she notice now? Keep, adjust or replace the approach.
+
+**The heart of the method:** help her understand what's making life heavy, find where relief would matter most, and work out a change that fits her particular family. The detailed notes in section 2 below support these six steps.
+
 ## 2. The assessment, in Wendy's order
 
 ### Step 1. Let her talk: what feels hard?
