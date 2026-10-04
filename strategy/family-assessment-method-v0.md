@@ -125,24 +125,25 @@ Patterns from Wendy's own examples and the October consult:
 - **Wendy's reply:** adjust the plan from the answer. The 7-day voice-message check-in from the clarity-plan skill stays.
 - **A community only if pilot families ask for one,** and only with a weekly activity built in.
 
-## 7. Small paid pilot (measure the result and Wendy's time separately)
-- **Who:** 5–10 families, invited first from the 29 survey respondents who said yes or maybe to a call.
-- **Price:** **[WENDY]** decides. If the Bootcamp is included, it can't go below the $147 promise.
+## 7. Small paid pilot (revised Oct 4)
+**What she gets:** three weeks of Wendy's help finding one problem, choosing a change that fits, and adjusting it based on how it actually goes.
+
+- **Who:** start with **3 families** (no more than 5). Invite them in a **separate, clearly optional** email. The September survey promised the call would be "just to talk, no sales pitch," so those research calls stay pitch-free.
+- **Price:** **$37, an experiment.** Selling at $37 doesn't prove demand at a higher price, and paying doesn't guarantee she'll take part or give honest feedback. The Bootcamp is not included.
 - **Flow:**
-  1. Written intake (steps 1–4).
-  2. Plan drafted with AI help.
-  3. **Wendy reviews and edits every plan.**
-  4. Delivered within 48 hours.
-  5. Check-ins at day 7 and week 3.
+  1. Written intake (steps 1–3).
+  2. **Follow-up conversation or a back-and-forth of questions** (step 4). The intake form alone can't replace Wendy's deeper questions.
+  3. Plan, with the help of AI drafting and **Wendy reviewing every one**: what's making the day heavy, the one change, what to set down.
+  4. Day-7 check-in.
+  5. Week 2–3 check-ins.
+- **One change at a time:** keep working on the first change until her results show she's ready for another. Don't add a second change automatically.
+- **Track Wendy's time by category, for each family:** intake review / follow-up questions / plan writing / adjustments / admin. Current time estimates are untested.
 - **Measure for each family:**
   1. Did she use the plan?
-  2. Did the one change hold on at least 4 of 7 days by week 3?
+  2. Did the change hold by week 3?
   3. Where did she need a human?
-  4. Would she pay again or recommend it?
-  5. **Wendy's total minutes per family**, compared with about 4 hours for a full consultation.
-- **Decide after the pilot:**
-  - If plans are used and Wendy's time is under about 60–75 minutes per family → package and build.
-  - If plans aren't used → fix the method before any technology.
+  4. Feedback, including her willingness to pay.
+- **Decide what to build and what to charge from actual results and actual delivery time.**
 
 ## 8. Next action
 Wendy answers the **[WENDY]** items. A voice memo is fine; it gets transcribed and folded in here. Start with:
