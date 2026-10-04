@@ -113,6 +113,17 @@ One offer that joins **Wendy's assessment process**, a **personalized cleaning s
 
 **Why it matters for 2027:** about 6 sales a month at $197 replaces the $1,075/mo affiliate retainers that end in December.
 
+### Idea: an AI "home management helper" built on Wendy's method (Oct 4)
+- **Now (Q4): use Claude behind the scenes.** It drafts each beta family's plan from her intake answers using Wendy's method (the existing clarity-plan skill plus her space and age baselines). Wendy reviews every plan. The beta is where her method gets written down precisely enough to automate.
+- **Later (Jan–Mar 2027), only if the beta proves demand:** a customer-facing helper.
+  - **What it does:** an intake wizard builds the plan and cleaning schedule; moms then chat for adjustments ("baby's sick this week, what do I drop?").
+  - **Price:** fits the format that sells in this niche, a **$19–24/mo membership**, alongside a monthly live call and community (80% said yes or maybe to a group).
+  - **API cost estimate** [A]: about $0.20–0.50 per generated plan; about $1–3 per active member per month for chat. The real costs are building and maintaining the app, plus privacy for family data.
+- **Two ways to deliver it:**
+  - **(a) A Claude Project or skill each mom runs in her own Claude account.** Fast to make, but it needs her to have a paid Claude plan and be comfortable with it, and it's easy to copy.
+  - **(b) A simple web app on the Claude API.** Smoother for tired moms, but weeks of building, plus logins, payments and data privacy.
+- **Positioning:** sell "Wendy's method, there whenever you need it," not "AI." Disclose AI use plainly. Give it her own brand name, not "Claude." Add one waitlist question to measure how comfortable her audience is with AI.
+
 ### The combination: four engines, started in order, not all at once
 
 | # | Engine | Starts | Your time | Why it's in |
