@@ -34,17 +34,17 @@ Legend: **[V]** verified from a system · **[C]** calculated from verified data 
 
 | # | Engine | Starts | Your time | Why it's in |
 |---|---|---|---|---|
-| 1 | **Planner sell-through** (undated + dated + Print-at-Home + Daily Pages) | Now | Medium; high when shipping | Proven demand; covers the printer balance |
+| 1 | **Planner sell-through** (undated + dated + Print-at-Home + Daily Pages) | Now | Medium (you are not shipping now; planners are expected in December) | Proven demand; covers the printer balance |
 | 2 | **Partners** (affiliates, Made2Homeschool Black Friday, co-op/church bulk) + affiliate retainers ($3,225) | Now | Low | Reaches people you don't have |
 | 3 | **New: "Home Systems Kit" digital product** (chore checklists, room cards, routine printables), $27–37 | Pre-sell Oct 13–19; build only if it pre-sells | Medium for 2 weeks, then about zero | Built on your **highest-intent signals**: "STICK" requests, "share your checklists," 300 diagnostic opt-ins in 6 weeks. No shipping. Also works as an order bump on every planner. |
 | 4 | **"Ready for viral" funnel** | Fix in week 1, then always on | Low | Captures the upside if a video takes off. Not counted in base revenue |
 
-**Paused, not cancelled:**
-- **Clarity calls:** stay listed; honor the 9 beta spots.
-- **$997 group:** re-test in January at a price your list can say yes to.
-- **Marriage product:** January waitlist test.
+**Correction (Wendy, Oct 4): you are not shipping right now.** October and most of November are open business time. Front-load the work that needs you live, and keep December light for whenever the planners arrive.
 
-These wait because each needs your live time during the same 6 weeks you'll be packing 1,000+ orders.
+- **Clarity calls: promote now.** Fill the 9 remaining $97 beta spots in October, about 2–3 hours each. Collect testimonials, then raise the price to $197.
+- **Small group, $197–297 (instead of $997): optional fifth engine.** A 4-week "Home Reset" group on Zoom, starting early November, capped at 12. Pre-sell it to the people who asked about the group. **Run it only if 6+ seats sell by Oct 30.** Price was the objection at $997, and they named $100–200 as what they could do.
+- **Marriage product:** still a January waitlist test. It has no sales data yet.
+- **Before December:** confirm who ships when the planners arrive (you, family help, or a fulfillment service), so December doesn't swallow you.
 
 ### Home Systems Kit: paid validation before building (Oct 13–19)
 1. Email the 300 "Why Routines Never Stick" leads, the chore-video commenters, and past Bootcamp buyers.
