@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Less for Mom to Manage: The AI Day Audit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#fbf8f3; --ink:#3b342e; --soft:#6f655c; --line:#e3d9cc;
+    --clay:#a9806b; --clay-soft:#f3ebe3; --sage:#8a9483;
+  }
+  @page{ size:8.5in 11in; margin:.9in 0 .95in; background:#fbf8f3;
+    @bottom-left{content:"LESS FOR MOM TO MANAGE";font-family:Jost,sans-serif;font-size:7.8pt;letter-spacing:.28em;color:#6f655c;margin-left:1in;vertical-align:middle}
+    @bottom-right{content:counter(page, decimal-leading-zero);font-family:Jost,sans-serif;font-size:7.8pt;letter-spacing:.2em;color:#6f655c;margin-right:1in;vertical-align:middle} }
+  @page full{ margin:0; @bottom-left{content:none} @bottom-right{content:none} }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--paper);color:var(--ink)}
+  body{font-family:"Jost",sans-serif;font-weight:400;font-size:11.4pt;line-height:1.62;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .page{page:full;width:8.5in;height:11in;position:relative;overflow:hidden;padding:0.95in 1in 1in;break-after:page;background:var(--paper)}
+  .flow{width:8.5in;padding:0 1in;}
+  .serif{font-family:"Cormorant Garamond",serif}
+  .eyebrow{font-weight:500;font-size:8.6pt;letter-spacing:.34em;text-transform:uppercase;color:var(--clay)}
+  .rule{height:1px;background:var(--line);border:0;margin:0}
+  .foot{position:absolute;left:1in;right:1in;bottom:.55in;display:flex;justify-content:space-between;font-size:7.8pt;letter-spacing:.28em;text-transform:uppercase;color:var(--soft)}
+
+  /* ---------- Cover ---------- */
+  .cover{display:flex;flex-direction:column;padding:0.9in 1.05in .9in}
+  .frame{position:absolute;inset:.42in;border:1px solid var(--line);pointer-events:none}
+  .cover .top{display:flex;justify-content:space-between;align-items:center}
+  .cover h1{font-family:"Cormorant Garamond",serif;font-weight:500;font-size:50pt;line-height:1.0;letter-spacing:.05em;margin:1.45in 0 0;text-transform:uppercase}
+  .cover .sub{font-family:"Cormorant Garamond",serif;font-style:italic;font-size:25pt;color:var(--clay);margin:16px 0 0}
+  .cover .short{width:70px;height:1px;background:var(--clay);margin:36px 0 30px}
+  .cover .headline{font-family:"Cormorant Garamond",serif;font-size:21pt;line-height:1.28;max-width:5.3in;margin:0}
+  .cover .support{font-size:11.2pt;color:var(--soft);max-width:4.9in;margin:16px 0 0}
+  .cover .quote{margin-top:auto;border-top:1px solid var(--line);padding-top:26px;display:grid;grid-template-columns:28px 1fr;gap:4px}
+  .cover .quote .mark{font-family:"Cormorant Garamond",serif;font-size:42pt;line-height:.8;color:var(--clay)}
+  .cover .quote p{font-family:"Cormorant Garamond",serif;font-style:italic;font-size:17pt;line-height:1.35;margin:0}
+  .cover .by{margin-top:26px;display:flex;justify-content:space-between;align-items:baseline}
+  .cover .by span:last-child{font-size:9.5pt;color:var(--soft)}
+
+  /* ---------- Page 2 ---------- */
+  h2{font-family:"Cormorant Garamond",serif;font-weight:500;font-size:29pt;line-height:1.12;margin:12px 0 22px;max-width:5.8in}
+  .lede p{margin:0 0 11px}
+  .lede .turn{font-family:"Cormorant Garamond",serif;font-style:italic;font-size:16pt;line-height:1.35;color:var(--clay);margin:14px 0 14px}
+  .two{display:grid;grid-template-columns:1.25fr 1fr;gap:34px;margin-top:20px}
+  ol.steps{list-style:none;counter-reset:s;margin:10px 0 0;padding:0}
+  ol.steps li{counter-increment:s;display:grid;grid-template-columns:26px 1fr;font-size:10.4pt;line-height:1.5;margin:0 0 7px}
+  ol.steps li:before{content:counter(s,decimal-leading-zero);font-family:"Cormorant Garamond",serif;font-size:12.5pt;color:var(--clay);line-height:1.2}
+  .note{background:var(--clay-soft);padding:16px 18px;border-radius:2px}
+  .note p{margin:0;font-family:"Cormorant Garamond",serif;font-style:italic;font-size:15pt;line-height:1.35}
+  .privacy{margin-top:16px;border-top:1px solid var(--line);padding-top:12px;font-size:9.4pt;line-height:1.5;color:var(--soft)}
+  .privacy b{font-weight:500;color:var(--ink);letter-spacing:.2em;text-transform:uppercase;font-size:7.8pt;display:block;margin-bottom:4px}
+
+  /* ---------- Prompt pages ---------- */
+  .prompt-intro{padding-top:.05in}
+  .copy-note{display:flex;gap:14px;align-items:flex-start;border:1px solid var(--line);padding:12px 16px;margin:6px 0 22px;font-size:9.8pt;line-height:1.5;color:var(--soft)}
+  .copy-note b{color:var(--ink);font-weight:500}
+  .marker{font-size:7.8pt;letter-spacing:.32em;text-transform:uppercase;color:var(--clay);margin:0 0 8px}
+  .prompt{border-left:2px solid var(--clay);background:#fff;padding:20px 26px 22px 26px;white-space:pre-wrap;font-size:10.8pt;line-height:1.62;color:var(--ink);box-decoration-break:clone;-webkit-box-decoration-break:clone}
+  .prompt .ph{font-weight:500;letter-spacing:.06em;color:var(--clay)}
+  .marker.end{margin:10px 0 0}
+
+  /* ---------- Closing ---------- */
+  .closing2{break-inside:avoid;text-align:center;padding-top:26px;padding-bottom:0}
+  .closing2 .orn{width:1px;height:28px;background:var(--clay);margin:0 auto 16px}
+  .closing2 blockquote{margin:0 auto;max-width:5.6in;font-family:"Cormorant Garamond",serif;font-style:italic;font-size:17.5pt;line-height:1.35}
+  .closing2 .series{font-family:"Cormorant Garamond",serif;font-size:15pt;letter-spacing:.08em;text-transform:uppercase;margin-top:16px}
+  .closing2 .small{font-size:9.4pt;color:var(--soft);margin-top:2px}
+  .closing{display:flex;flex-direction:column;justify-content:center;text-align:center;padding:1.2in 1.3in}
+  .closing .orn{width:1px;height:56px;background:var(--clay);margin:0 auto 34px}
+  .closing blockquote{margin:0;font-family:"Cormorant Garamond",serif;font-style:italic;font-size:24pt;line-height:1.35}
+  .closing .sign{margin-top:40px}
+  .closing .series{font-family:"Cormorant Garamond",serif;font-size:19pt;letter-spacing:.06em;text-transform:uppercase;margin-top:10px}
+  .closing .small{font-size:9.6pt;color:var(--soft);margin-top:4px}
+  .closing .next{margin:52px auto 0;max-width:4.6in;border-top:1px solid var(--line);padding-top:20px;font-size:10.2pt;color:var(--soft);line-height:1.55;text-align:center}
+</style>
+</head>
+<body>
+
+<!-- ===================== PAGE 1 · COVER ===================== -->
+<section class="page cover">
+  <div class="frame"></div>
+  <div class="top"><span class="eyebrow">Plan Prep Pray</span><span class="eyebrow" style="color:var(--soft)">A Free Resource</span></div>
+
+  <h1>Less for Mom<br>to Manage</h1>
+  <p class="sub">The AI Day Audit</p>
+  <div class="short"></div>
+  <p class="headline">Before you change your routine, see the day you're actually living.</p>
+  <p class="support">A simple AI-guided exercise to help you uncover the decisions, reminders, interruptions, and responsibilities making your days feel so heavy.</p>
+
+  <div class="quote">
+    <span class="mark">&ldquo;</span>
+    <p>We don't need to get better at handling more. We need to make less depend on us.</p>
+  </div>
+  <div class="by"><span class="eyebrow">Created by Plan Prep Pray</span><span>Less for Mom to Manage · A series</span></div>
+</section>
+
+<!-- ===================== PAGE 2 · BEFORE YOU BEGIN ===================== -->
+<section class="page">
+  <span class="eyebrow">Before You Begin</span>
+  <h2>Friend, let's see what's actually happening.</h2>
+
+  <div class="lede">
+    <p>You love your family. But somewhere between the appointments, the meals, the homeschooling, the interruptions, and everyone needing something, it's easy to lose sight of just how much you're carrying.</p>
+    <p>And sometimes the hardest part isn't everything you're physically doing.</p>
+    <p class="turn">It's everything you're constantly thinking about.</p>
+    <p>That's why we're starting here.</p>
+    <p>Before we create another schedule, change another routine, or add another thing to our to-do lists, we're going to take an honest look at the days we're already living.</p>
+    <p>We're going to use AI to help us do some of that mental work. Not to tell us how to run our families, but to help us see what we might be missing.</p>
+  </div>
+
+  <div class="two">
+    <div>
+      <span class="eyebrow">How to use this resource</span>
+      <ol class="steps">
+        <li>Open the free version of ChatGPT or Claude.</li>
+        <li>Copy the entire AI Day Audit prompt from the next pages.</li>
+        <li>Paste it into a new conversation.</li>
+        <li>Answer the questions one at a time. You can use voice dictation if that's easier.</li>
+        <li>Take your time. You don't need to finish the interview in one sitting.</li>
+        <li>Review the map AI creates and correct anything it misunderstood.</li>
+      </ol>
+    </div>
+    <div>
+      <div class="note"><p>You aren't trying to fix your whole life today. You're simply paying attention to the life you're actually living.</p></div>
+      <div class="privacy"><b>A gentle privacy note</b>You don't need to share your children's full names, birthdays, addresses, medical details, or anything else that identifies them. "My 9-year-old" works just as well. Share only what helps the AI understand your day.</div>
+    </div>
+  </div>
+
+  <div class="foot"><span>Less for Mom to Manage</span><span>02</span></div>
+</section>
+
+<!-- ===================== PAGES 3–4 · PROMPT (flows) ===================== -->
+<section class="flow prompt-intro">
+  <span class="eyebrow">The AI Day Audit Prompt</span>
+  <h2 style="margin-bottom:14px">Copy, paste, and let it ask the questions.</h2>
+  <div class="copy-note"><span><b>Copy the entire prompt</b>, from the first line to "Start by asking me your first question." It works as one set of instructions, so copying just one section won't give you the same results. On a phone? Use the separate <b>AI-Day-Audit-Prompt.txt</b> file for easier copying.</span></div>
+  <p class="marker">Begin copying below this line</p>
+  <div class="prompt">{{PROMPT}}</div>
+  <p class="marker end">End of prompt</p>
+</section>
+
+<!-- ===================== CLOSING ===================== -->
+<section class="flow closing2">
+  <div class="orn"></div>
+  <blockquote>"Your day doesn't have to look like someone else's to be faithfully lived. We're starting with what is, so we can make wise decisions about what comes next."</blockquote>
+  <div class="series">Less for Mom to Manage</div>
+  <div class="small">A series by Plan Prep Pray</div>
+</section>
+
+</body>
+</html>
