@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Our Day, As Lived</title>
+<style>
+  :root{
+    --ink:#2b2622; --muted:#6b625a; --line:#e3dcd3; --paper:#fffdf9; --soft:#f6f1ea;
+    --d1:#e9efe6; --d2:#cfe0c8; --d3:#f3e3b8; --d4:#f0c38e; --d45:#e9a173; --d5:#d9725a;
+    --told:#3c6e71; --doc:#6a5acd; --inf:#b5651d; --gap:#9a2f2f;
+  }
+  @page { size: letter; margin: 0.55in 0.55in 0.6in; }
+  @page wide { size: letter landscape; margin: 0.45in; }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font:10.5pt/1.45 Georgia,"Times New Roman",serif}
+  .wrap{max-width:7.4in;margin:0 auto;padding:0 16px}
+  h1{font-size:24pt;margin:0 0 4px;font-weight:normal;letter-spacing:.2px}
+  h2{font-size:14pt;margin:22px 0 8px;font-weight:normal;border-bottom:1px solid var(--line);padding-bottom:4px}
+  h3{font-size:11.5pt;margin:14px 0 6px}
+  p{margin:6px 0}
+  .sub{color:var(--muted);font-style:italic}
+  .sans{font-family:"Helvetica Neue",Arial,sans-serif}
+  table{border-collapse:collapse;width:100%;font-size:9.4pt;margin:6px 0 10px}
+  th,td{border-bottom:1px solid var(--line);padding:5px 6px;vertical-align:top;text-align:left}
+  th{font-family:"Helvetica Neue",Arial,sans-serif;font-size:8.4pt;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);font-weight:600;background:var(--soft)}
+  ul{margin:4px 0 8px;padding-left:18px} li{margin:2px 0}
+  .tag{display:inline-block;font:600 7.2pt/1 "Helvetica Neue",Arial,sans-serif;padding:2px 5px;border-radius:3px;color:#fff;vertical-align:1px;margin-right:3px;white-space:nowrap}
+  .t{background:var(--told)} .d{background:var(--doc)} .i{background:var(--inf)} .g{background:var(--gap)}
+  .key{display:flex;flex-wrap:wrap;gap:6px 14px;font:8.6pt "Helvetica Neue",Arial,sans-serif;color:var(--muted);margin:8px 0}
+  .card{background:var(--soft);border:1px solid var(--line);border-radius:6px;padding:10px 12px;margin:8px 0}
+  .quote{font-style:italic;color:#4a423b}
+  .pp{border-left:4px solid var(--d5);background:#fbf3ef;padding:8px 12px;margin:8px 0;border-radius:0 6px 6px 0;break-inside:avoid}
+  .pp h3{margin:0 0 4px}
+  .meter{display:inline-block;height:9px;border-radius:2px;vertical-align:0}
+  .pagebreak{break-before:page}
+  .cover-meta{font:9pt "Helvetica Neue",Arial,sans-serif;color:var(--muted);margin-top:4px}
+
+  /* ---------- Day map (landscape page) ---------- */
+  .wide{page:wide}
+  .map{font-family:"Helvetica Neue",Arial,sans-serif;padding:0 16px}
+  .map h1{font-family:Georgia,serif;font-size:18pt}
+  .scroll{overflow-x:auto}
+  .grid{position:relative;min-width:900px;margin-top:6px}
+  .lane{display:grid;grid-template-columns:118px 1fr;align-items:stretch;margin:5px 0}
+  .lane .lbl{font-size:8.2pt;font-weight:600;color:var(--muted);padding:4px 8px 0 0;line-height:1.2}
+  .lane .lbl small{display:block;font-weight:normal;font-style:italic}
+  .track{position:relative;height:58px;background:#fff;border:1px solid var(--line);border-radius:4px}
+  .track.tall{height:92px}
+  .seg{position:absolute;top:3px;bottom:3px;border-radius:3px;font-size:7.3pt;line-height:1.12;padding:2px 3px;overflow:hidden;color:#2b2622;border:1px solid rgba(0,0,0,.08)}
+  .seg b{font-size:7.6pt}
+  .plan{background:#ece8f8;border:1px dashed #9d92d6}
+  .away{background:repeating-linear-gradient(45deg,#f3f0ec,#f3f0ec 5px,#ebe6df 5px,#ebe6df 10px)}
+  .neutral{background:#eeeae4}
+  .ticks{position:relative;height:16px;margin-left:118px}
+  .ticks span{position:absolute;transform:translateX(-50%);font-size:7.4pt;color:var(--muted)}
+  .vline{position:absolute;top:0;bottom:0;width:1px;background:rgba(0,0,0,.06)}
+  .pins{position:relative;height:96px}
+  .pin{position:absolute;top:0;transform:translateX(-50%);text-align:center;width:72px;font-size:6.9pt;line-height:1.1;color:#5b2a1e}
+  .pin:before{content:"";display:block;margin:0 auto 2px;width:9px;height:9px;border-radius:50%;background:var(--d5);border:2px solid #fff;box-shadow:0 0 0 1px var(--d5)}
+  .legend{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:8pt;color:var(--muted);margin:8px 0 0 118px}
+  .legend i{display:inline-block;width:18px;height:10px;border-radius:2px;vertical-align:-1px;margin-right:3px;border:1px solid rgba(0,0,0,.08)}
+  .night{display:flex;gap:10px;margin:8px 0 0 118px;font-size:8.2pt}
+  .night div{flex:1;border:1px solid var(--line);border-radius:4px;padding:5px 7px;background:#fff}
+
+  @media print{ .scroll{overflow:visible} .grid{min-width:0} body{-webkit-print-color-adjust:exact;print-color-adjust:exact} }
+  @media (max-width:640px){ h1{font-size:19pt} .wrap{padding:0 16px} }
+</style>
+</head>
+<body>
+
+<!-- =================== PAGE 1: COVER / HOW TO READ =================== -->
+<div class="wrap">
+  <h1>Our Day, As Lived</h1>
+  <div class="sub">A map of one homeschooling family's real weekday, before deciding what to change</div>
+  <div class="cover-meta">Prepared October 10, 2026 · From a one-question-at-a-time interview, the kids' printed schedules, the morning checklist, and both Google Calendars (Sept 28 – Oct 16)</div>
+
+  <div class="card">
+    <b>What this is:</b> a picture of the day you are actually living. Nothing here is a recommendation. Pressure points are named so you can look at them, not so they can be fixed yet.
+    <div class="key">
+      <span><span class="tag t">YOU SAID</span> your own words or facts you gave</span>
+      <span><span class="tag d">DOCUMENT</span> from schedules, checklist, or calendar</span>
+      <span><span class="tag i">MY INFERENCE</span> a pattern I'm drawing; please test it</span>
+      <span><span class="tag g">MISSING</span> not covered or unclear; not guessed</span>
+    </div>
+  </div>
+
+  <h2>Who's in the home</h2>
+  <table>
+    <tr><th style="width:26%">Person</th><th>What we know</th></tr>
+    <tr><td><b>You</b></td><td><span class="tag t">YOU SAID</span> Homeschooling mom, runs a business (Reels, carousels, meetings), nursing the baby day and night.</td></tr>
+    <tr><td><b>Your husband</b></td><td><span class="tag t">YOU SAID</span> Gone by 6 a.m., home around 4 p.m., "exhausted from these days."</td></tr>
+    <tr><td><b>Sean, 15</b></td><td><span class="tag t">YOU SAID</span> age 15 · <span class="tag d">DOCUMENT</span> name and weekly schedule</td></tr>
+    <tr><td><b>Samyah, 12</b></td><td><span class="tag t">YOU SAID</span> age 12 and spelling · <span class="tag d">DOCUMENT</span> weekly schedule (printed as "Samaya")</td></tr>
+    <tr><td><b>9-year-old son</b></td><td><span class="tag i">MY INFERENCE</span> possibly <b>Shai</b> (calendar: "MyTek Shai &amp; Selah," "Shai soccer," "Shai's birthday" Oct 11) <span class="tag g">CONFIRM</span></td></tr>
+    <tr><td><b>7-year-old daughter</b></td><td><span class="tag i">MY INFERENCE</span> possibly <b>Selah</b> <span class="tag g">CONFIRM</span></td></tr>
+    <tr><td><b>Shayne, 3</b></td><td><span class="tag t">YOU SAID</span> age 3 · <span class="tag d">DOCUMENT</span> "Teach Shayne, Purely Preschool" on the teens' schedules</td></tr>
+    <tr><td><b>The baby, 1</b></td><td><span class="tag t">YOU SAID</span> age 1 · <span class="tag i">MY INFERENCE</span> possibly <b>Sophia</b> (calendar: "Sophia's 12 m MMR") <span class="tag g">CONFIRM</span></td></tr>
+    <tr><td><b>The dog</b></td><td><span class="tag d">DOCUMENT</span> Sean's 6:00 block includes "dog" · <span class="tag t">YOU SAID</span> Sean does his early block on his own</td></tr>
+  </table>
+</div>
+
+<!-- =================== PAGE 2: VISUAL DAY MAP (landscape) =================== -->
+<section class="wide map pagebreak">
+  <h1>The Day Map: a typical home weekday (Tue–Thu)</h1>
+  <div class="sub" style="font-family:Georgia,serif">Colored blocks show how draining <b>you</b> rated each part of the day. Purple dashed blocks are what the printed schedules say should happen. Red pins are recurring interruptions you described.</div>
+
+  <div class="scroll"><div class="grid" id="grid">
+    <div class="ticks" id="ticks"></div>
+
+    <div class="lane"><div class="lbl">The plan<small>printed schedules</small></div><div class="track" id="lane-plan"></div></div>
+    <div class="lane"><div class="lbl">You, actually<small>what happens</small></div><div class="track tall" id="lane-you"></div></div>
+    <div class="lane"><div class="lbl">Interruptions<small>recurring</small></div><div class="pins" id="lane-pins"></div></div>
+    <div class="lane"><div class="lbl">Your husband</div><div class="track" id="lane-hub"></div></div>
+    <div class="lane"><div class="lbl">The kids<small>what really happens</small></div><div class="track tall" id="lane-kids"></div></div>
+
+    <div class="legend">
+      <span><i style="background:var(--d2)"></i>Drain 2</span>
+      <span><i style="background:var(--d4)"></i>Drain 4</span>
+      <span><i style="background:var(--d45)"></i>Drain 4.5</span>
+      <span><i style="background:var(--d5)"></i>Drain 5</span>
+      <span><i class="neutral" style="background:#eeeae4"></i>Not rated</span>
+      <span><i style="background:#ece8f8;border:1px dashed #9d92d6"></i>Planned on paper</span>
+      <span><i style="background:repeating-linear-gradient(45deg,#f3f0ec,#f3f0ec 3px,#ebe6df 3px,#ebe6df 6px)"></i>Away</span>
+    </div>
+    <div class="night">
+      <div><b>Overnight (~10:15 p.m. – 4:55 a.m.)</b> · drain 4.5–5 · baby co-sleeps and nurses <b>3×</b> (good night), <b>4–5×</b> (average), <b>6–7×</b> (rough). Actual sleep total: unknown.</div>
+      <div><b>Your work, as you describe it:</b> 5:15–9:00 interrupted ≈ "one hour of uninterrupted work." Then 12:30–4:00 and 4:00–7:30/8:00, also interrupted.</div>
+    </div>
+  </div></div>
+</section>
+
+<!-- =================== REPORT =================== -->
+<div class="wrap pagebreak">
+  <h2>1 · The day, hour by hour</h2>
+  <p class="sub">A typical home weekday, Tuesday through Thursday (the days the co-op kids come, per the calendar).</p>
+  <table>
+    <tr><th style="width:13%">Time</th><th style="width:38%">What actually happens</th><th style="width:27%">What you're carrying in your head</th><th>Plan says</th></tr>
+    <tr><td>4:55</td><td><span class="tag t">YOU SAID</span> Alarm. Baby stirs when you move, so you nurse her and slip in the pacifier to get out of bed.</td><td>How to leave without waking her</td><td></td></tr>
+    <tr><td>5:15–5:55</td><td><span class="tag t">YOU SAID</span> Downstairs working: Reel scripts, organizing.</td><td>Your business</td><td></td></tr>
+    <tr><td>~5:55</td><td><span class="tag t">YOU SAID</span> Husband calls: baby's awake. You go up, nurse, and when she won't settle, carry her down and work while nursing or with her on the carpet.</td><td>Work + baby at once</td><td><span class="tag d">DOC</span> Sean up 5:55; Samyah up 6:00</td></tr>
+    <tr><td>6:00</td><td><span class="tag t">YOU SAID</span> You're supposed to wake Samyah (no alarm, because her sister shares the room) but you're working or nursing, so it's missed. She's up around 7:30–8:00. Husband gone by 6.</td><td>Samyah's wake-up is yours</td><td><span class="tag d">DOC</span> Samyah: devotions, laundry, dressed, <b>makes breakfast</b> by 7:00</td></tr>
+    <tr><td>6:00–8:00</td><td><span class="tag t">YOU SAID</span> <b>Sean does his whole early block on his own.</b></td><td>-</td><td><span class="tag d">DOC</span> Dressed, devotions, dog, run</td></tr>
+    <tr><td>~7:15–7:20</td><td><span class="tag t">YOU SAID</span> 9-year-old comes to lie with or on you. You remind him about his checklist; he whines, complains, and yells, then does it. Then the 7-year-old: same reminder. Then Shayne. Everyone asks "what's for breakfast?"</td><td>Checklist status for each child; breakfast <b>decided on the spot</b></td><td><span class="tag d">DOC</span> 3-part checklist: Bedroom → Bathroom → Kitchen</td></tr>
+    <tr><td>~8:15</td><td><span class="tag t">YOU SAID</span> Sean brings the tablet for the math password. The same daily back-and-forth: did you finish breakfast and your checklist first?</td><td>Judging whether he's done or "improvising"</td><td><span class="tag d">DOC</span> Breakfast 8:00, math 8:30</td></tr>
+    <tr><td>8:30–9:00</td><td><span class="tag t">YOU SAID</span> Still trying to work. Realize it's too late for Morning Basket.</td><td>Whether to stop working</td><td><span class="tag d">DOC</span> Morning Basket 9:00 (Samyah) / 9:30 (Sean)</td></tr>
+    <tr><td>~9:00–10:00</td><td><span class="tag t">YOU SAID</span> All About Reading and math with the 9- and 7-year-old.</td><td>Teaching (drain 2)</td><td></td></tr>
+    <tr><td>~10:00–10:30</td><td><span class="tag t">YOU SAID</span> Kids play outside or have free play while you rush to make your own breakfast. Friend's two kids arrive.</td><td>Your first meal</td><td><span class="tag d">DOC</span> Outside 10:00</td></tr>
+    <tr><td>10:30–11:30</td><td><span class="tag t">YOU SAID</span> Christian Light Education language arts for four kids (your 9- and 7-year-old plus your friend's two). Baby gets fussy and is often nursed down for nap 1 <i>during</i> class. Shayne is either with the teens or in your class "just getting in the way."</td><td>Teaching + baby + Shayne at once</td><td><span class="tag d">DOC</span> Teens teach Shayne 10:30 / 11:00 · <span class="tag d">CAL</span> "LA and Spelling" Tue–Thu</td></tr>
+    <tr><td>11:30–12:30</td><td><span class="tag t">YOU SAID</span> Baby nursed down if not already. Lunch: everyone fends for themselves; you direct cleanup.</td><td>"I don't want to think about it"</td><td><span class="tag d">DOC</span> Sean makes lunch 11:30</td></tr>
+    <tr><td>12:30–4:00</td><td><span class="tag t">YOU SAID</span> Working the whole time while watching the baby and Shayne and directing everyone else ("go outside," "clean something," "quiet time," "tidy your zone"). Baby's nap 2 falls somewhere 3:30–4:30.</td><td>Everyone's whereabouts and progress</td><td><span class="tag d">DOC</span> Lunch, history, quiet reading, independent work</td></tr>
+    <tr><td>~4:00</td><td><span class="tag t">YOU SAID</span> Husband home. You hand everything to him; he takes off his shoes and rests on the couch, sometimes scrolling. The 4:00/4:30 check-ins <b>don't happen</b>; you've been checking in all day instead.</td><td>Handoff</td><td><span class="tag d">DOC</span> "Check your work with Mom" 4:00 · "Check in with Mom" 4:30</td></tr>
+    <tr><td>4:00–7:30/8:00</td><td><span class="tag t">YOU SAID</span> Working in the basement where kids play and the TV is on; they still come to you. For real focus you sometimes work in the car. Husband handles dinner: about half the time it's improvised (pizza loaf, fish sticks, "fend for yourselves"). You eat separately.</td><td>Your work; when to stop</td><td><span class="tag d">DOC</span> Dinner 7:00</td></tr>
+    <tr><td>7:30–9:30</td><td><span class="tag t">YOU SAID</span> Either too tired and scrolling, or you're still working ("a really hard time stopping"), or no one's watching the clock. Then a rush: zones, showers, bed. "Very hectic, not peaceful, not calm."</td><td>Getting everyone down</td><td><span class="tag d">DOC</span> Bedtime 9:00</td></tr>
+    <tr><td>9:30–10:30</td><td><span class="tag t">YOU SAID</span> Husband lies down with Shayne; you nurse the baby to sleep in your bed and fall asleep around 10:00–10:30. He comes to bed later.</td><td>-</td><td></td></tr>
+  </table>
+
+  <h2>2 · Recurring decisions you make every day</h2>
+  <table>
+    <tr><th>Decision</th><th style="width:22%">When</th><th>Source</th></tr>
+    <tr><td>What's for breakfast</td><td>~7:15–8:00, asked on the spot</td><td><span class="tag t">YOU SAID</span> drain 5 on the spot vs. ~2–2.5 if decided ahead</td></tr>
+    <tr><td>Has each child done their checklist?</td><td>Each child's arrival downstairs</td><td><span class="tag t">YOU SAID</span></td></tr>
+    <tr><td>Did Sean finish before math? (the tablet password)</td><td>~8:15</td><td><span class="tag t">YOU SAID</span></td></tr>
+    <tr><td>Do we still do Morning Basket?</td><td>8:30–9:00</td><td><span class="tag t">YOU SAID</span> usually "too late"</td></tr>
+    <tr><td>Who's teaching Shayne today, and are the teens on track?</td><td>All morning</td><td><span class="tag t">YOU SAID</span> happens ~2–3 days/week</td></tr>
+    <tr><td>Where is each child and are they working? ("Why are you just sitting there?")</td><td>All day</td><td><span class="tag t">YOU SAID</span> drain 5</td></tr>
+    <tr><td>What to send a restless child to do (outside, clean, quiet time, zones)</td><td>Afternoons</td><td><span class="tag t">YOU SAID</span></td></tr>
+    <tr><td>Lunch</td><td>11:30–12:30</td><td><span class="tag t">YOU SAID</span> left to the kids, but you supervise cleanup</td></tr>
+    <tr><td>When to stop working</td><td>Morning and evening</td><td><span class="tag t">YOU SAID</span> "a really hard time stopping"</td></tr>
+    <tr><td>What to prepare before an outing (food, documents, books)</td><td>Appointment days</td><td><span class="tag t">YOU SAID</span> (Friday) · <span class="tag i">MY INFERENCE</span> this happens in the moment, not the night before</td></tr>
+  </table>
+
+  <h2>3 · Who owns what today</h2>
+  <table>
+    <tr><th style="width:19%">Person</th><th>Owns or does on their own</th><th>Supposed to, but it lands on you</th></tr>
+    <tr><td><b>You</b></td><td colspan="2"><span class="tag t">YOU SAID</span> Night and day nursing · Samyah's wake-up · all reminders and check-ins · breakfast decisions · teaching the middles and the co-op · supervising the baby and Shayne while working · tablet access · bedtime nursing · appointments and errands · your business</td></tr>
+    <tr><td><b>Your husband</b></td><td><span class="tag t">YOU SAID</span> Calls when the baby wakes (~5:55) · takes the kids at ~4:00 · dinner (improvised about half the time) · lies down with Shayne at bedtime</td><td><span class="tag g">MISSING</span> What he does with the kids between 4:00 and dinner; the other half of dinners; kitchen cleanup</td></tr>
+    <tr><td><b>Sean, 15</b></td><td><span class="tag t">YOU SAID</span> His whole 5:55–8:00 block, including the dog</td><td><span class="tag t">YOU SAID</span> Making lunch ("rarely, if ever") · teaching Shayne (about half the time) · 4:30 check-in</td></tr>
+    <tr><td><b>Samyah, 12</b></td><td><span class="tag g">MISSING</span> what she reliably does on her own</td><td><span class="tag t">YOU SAID</span> 6:00 wake-up (needs you) · making breakfast · teaching Shayne · 4:00 check-in</td></tr>
+    <tr><td><b>9- and 7-year-old</b></td><td><span class="tag t">YOU SAID</span> <i>Capable</i> of checklists, independent work (Teaching Textbooks, Explode the Code, worksheets, MyTek), chores, helping with Shayne and the baby</td><td><span class="tag t">YOU SAID</span> "They don't do anything without the constant reminders." They need you for reading, language arts, and math.</td></tr>
+    <tr><td><b>Shayne, 3</b></td><td colspan="2"><span class="tag t">YOU SAID</span> Watched by you most of the day unless the teens are teaching him · needs a parent to lie down with him at bedtime</td></tr>
+    <tr><td><b>The baby</b></td><td colspan="2"><span class="tag t">YOU SAID</span> Nurses throughout the day and night · naps ~10:30–11:30 and ~3:30–4:30 · co-sleeps with you</td></tr>
+  </table>
+
+  <h2>4 · Energy and time</h2>
+  <p class="sub">Your ratings, 1 = barely notice, 5 = drains me.</p>
+  <table id="energy">
+    <tr><th>Responsibility</th><th style="width:30%">Drain</th><th>Your notes</th></tr>
+  </table>
+
+  <h2>5 · Where the day gets heavy</h2>
+  <p>These are the places your answers kept circling back to. Each one keeps <b>what you said</b> separate from <b>what I'm inferring</b>.</p>
+
+  <div class="pp"><h3>A. The nights feed the days</h3>
+    <span class="tag t">YOU SAID</span> 3 to 7 wake-ups a night; rated 4.5–5. Moving her to her own bed hasn't happened because "we're just too tired to even deal with nighttime battles on top of daytime battles."<br>
+    <span class="tag i">MY INFERENCE</span> Every other part of the day starts from this level of tiredness.</div>
+
+  <div class="pp"><h3>B. 7:15–9:00: everything arrives at once</h3>
+    <span class="tag t">YOU SAID</span> Work you can't easily leave, the baby, four kids arriving one at a time, checklist reminders, the breakfast question, and the tablet negotiation. Morning Basket gets lost.<br>
+    <span class="tag i">MY INFERENCE</span> Samyah's missed 6:00 wake-up removes breakfast from the morning, so the breakfast decision moves onto you at your busiest moment.</div>
+
+  <div class="pp"><h3>C. You are the household's clock</h3>
+    <span class="tag t">YOU SAID</span> "It all depends on me reminding them." You are Samyah's alarm, the reminder for every task the middles do, and the reason the teens stay on schedule. The written check-ins don't happen.<br>
+    <span class="tag i">MY INFERENCE</span> The schedules and checklists exist and the kids are capable, so what seems to be missing is something besides you that starts each next step.</div>
+
+  <div class="pp"><h3>D. Working while supervising, all day</h3>
+    <span class="tag t">YOU SAID</span> Nearly four early-morning hours ≈ one hour of focused work. The afternoon and evening are interrupted too (4.5), with work happening in the basement among the kids and the TV.<br>
+    <span class="tag i">MY INFERENCE</span> Your work and your parenting are almost never separated in time or space, so both feel unfinished.</div>
+
+  <div class="pp"><h3>E. Meals decided in the moment</h3>
+    <span class="tag t">YOU SAID</span> Breakfast on the spot = 5; decided ahead = ~2–2.5. Lunch is fend-for-yourself; dinner is improvised about half the time; meals are eaten separately.</div>
+
+  <div class="pp"><h3>F. The 4:00 handoff and the evening</h3>
+    <span class="tag t">YOU SAID</span> Your husband arrives exhausted. You hand off and go back to work until 7:30–8:00. Bedtime is "very hectic, not peaceful."<br>
+    <span class="tag i">MY INFERENCE</span> The handoff is between two depleted adults, and there's no shared stopping point that marks the end of the workday for either of you.</div>
+
+  <div class="pp"><h3>G. Unwritten logistics (what happened Friday)</h3>
+    <span class="tag t">YOU SAID</span> Kids woken late, nothing prepared the night before, breakfast was yogurt, 3 hours of therapy with hungry kids, a DMV trip that failed because your license was at home, rushing to post a carousel, then late again for Samyah's 4:00 PT, where you had a panic attack. School was the first thing to go.<br>
+    <span class="tag d">CALENDAR</span> Only the three therapy sessions and a 6:30–8:30 work meeting are on the calendar. <b>The DMV and Samyah's PT aren't on either calendar.</b><br>
+    <span class="tag i">MY INFERENCE</span> Twice that day, time slipped away while you were working (7:00 and 3:00). Everything that went wrong depended on preparation that existed only in your head.</div>
+
+  <h2>6 · What you wish could happen (and rarely does)</h2>
+  <ul>
+    <li><span class="tag t">YOU SAID</span> Sitting down to Morning Basket</li>
+    <li><span class="tag t">YOU SAID</span> Knowing what's for dinner at the start of the day</li>
+    <li><span class="tag t">YOU SAID</span> The kids know what's expected and move through it on their own</li>
+    <li><span class="tag t">YOU SAID</span> Stopping work at a set point</li>
+    <li><span class="tag t">YOU SAID</span> Your husband gets a chance to recharge after work so he can rejoin the family</li>
+    <li><span class="tag t">YOU SAID</span> Family worship together: Bible reading, talking, connecting</li>
+    <li><span class="tag t">YOU SAID</span> Eating dinner together</li>
+    <li><span class="tag t">YOU SAID</span> The baby sleeping in her own bed</li>
+  </ul>
+
+  <h2>7 · Missing or unclear (not guessed)</h2>
+  <ul>
+    <li><span class="tag g">CONFIRM</span> Names of the 9- and 7-year-old (Shai and Selah?) and the baby (Sophia?).</li>
+    <li><span class="tag g">CONFIRM</span> "Apology of math" may be voice typing. What math curriculum do the middles use?</li>
+    <li><span class="tag g">MISSING</span> <b>Monday and Friday mornings.</b> The calendar shows the co-op kids only Tue–Thu. What do Mon and Fri look like?</li>
+    <li><span class="tag g">MISSING</span> <b>Evening activity nights</b> (e.g., soccer). How do they change 4:00–9:30?</li>
+    <li><span class="tag g">MISSING</span> <b>Housework</b>: laundry, kitchen cleanup, groceries, cleaning. Not covered in the interview.</li>
+    <li><span class="tag g">MISSING</span> <b>Weekends</b>, and your own rest, devotions, and meals.</li>
+    <li><span class="tag g">MISSING</span> Who drives the co-op kids to and from your house.</li>
+    <li><span class="tag g">MISSING</span> Whether the 9- and 7-year-old have their own written schedules.</li>
+    <li><span class="tag g">UNCLEAR</span> Friday's 6:30–8:30 M2H Lead Team meeting: were you on it while waking the kids?</li>
+    <li><span class="tag g">UNCLEAR</span> The weekly Friday therapy sessions: who are they for and who goes?</li>
+    <li><span class="tag g">UNCLEAR</span> MyTek: schedules say "live Mondays," the calendar shows Tuesdays 3:00–4:00.</li>
+    <li><span class="tag g">UNCLEAR</span> Morning Basket time: 9:00 on Samyah's schedule, 9:30 on Sean's.</li>
+    <li><span class="tag g">UNCLEAR</span> "The night is perfect, but…" trailed off. Was there more?</li>
+    <li><span class="tag g">UNCLEAR</span> Your actual hours of sleep.</li>
+  </ul>
+
+  <h2>8 · Questions to sit with (not solutions)</h2>
+  <ul>
+    <li>Looking at the map, which pressure point, if it eased, would make the others lighter?</li>
+    <li>Which of the things you carry in your head could be carried by something or someone else, and which do you want to keep?</li>
+    <li>What does your husband see when he looks at this map?</li>
+  </ul>
+  <p class="sub" style="margin-top:18px">"Come to me, all you who are weary and burdened, and I will give you rest." (Matthew 11:28)</p>
+</div>
+
+<script>
+  const S=270, E=1350, span=E-S;
+  const pct=m=>((m-S)/span*100);
+  const t=s=>{const[h,m]=s.split(':').map(Number);return h*60+m};
+  const C={2:'var(--d2)',4:'var(--d4)',4.5:'var(--d45)',5:'var(--d5)'};
+  function seg(lane,a,b,html,cls,drain){
+    const el=document.createElement('div');el.className='seg '+(cls||'');
+    el.style.left=pct(t(a))+'%';el.style.width=(pct(t(b))-pct(t(a)))+'%';
+    if(drain)el.style.background=C[drain];
+    el.innerHTML=html;el.title=el.textContent;document.getElementById(lane).appendChild(el);
+  }
+  // ticks
+  const tk=document.getElementById('ticks');
+  for(let h=5;h<=22;h++){const s=document.createElement('span');s.style.left=pct(h*60)+'%';s.textContent=(h>12?h-12:h)+(h<12?'a':'p');tk.appendChild(s);}
+  ['lane-plan','lane-you','lane-hub','lane-kids'].forEach(id=>{for(let h=5;h<=22;h++){const v=document.createElement('div');v.className='vline';v.style.left=pct(h*60)+'%';document.getElementById(id).appendChild(v);}});
+
+  // plan
+  seg('lane-plan','5:55','8:00','<b>Sean</b> up, devotions, dog, run','plan');
+  seg('lane-plan','8:00','8:30','Breakfast','plan');
+  seg('lane-plan','9:00','10:00','<b>Morning Basket</b>','plan');
+  seg('lane-plan','10:30','11:30','Teens teach Shayne','plan');
+  seg('lane-plan','11:30','12:00','Sean makes lunch','plan');
+  seg('lane-plan','13:00','14:00','Quiet reading','plan');
+  seg('lane-plan','16:00','17:00','<b>Check-ins with Mom</b>','plan');
+  seg('lane-plan','19:00','21:00','Dinner &amp; evening','plan');
+  seg('lane-plan','21:00','21:30','Bed','plan');
+
+  // you
+  seg('lane-you','4:55','5:15','Nurse to slip out',null,5);
+  seg('lane-you','5:15','5:55','Work',null,4.5);
+  seg('lane-you','5:55','7:15','Nursing + working with baby',null,4.5);
+  seg('lane-you','7:15','8:45','<b>Kids arrive:</b> reminders, "what\'s for breakfast?", tablet',null,5);
+  seg('lane-you','8:45','10:00','Reading + math w/ middles',null,2);
+  seg('lane-you','10:00','10:30','Rush own breakfast','neutral');
+  seg('lane-you','10:30','11:30','Co-op LA (4 kids) + baby + Shayne',null,2);
+  seg('lane-you','11:30','12:30','Nap 1, lunch, direct cleanup',null,5);
+  seg('lane-you','12:30','16:00','<b>Working while watching baby + Shayne</b> and directing kids',null,4.5);
+  seg('lane-you','16:00','19:45','<b>Work in basement</b>, still interrupted',null,4.5);
+  seg('lane-you','19:45','21:30','<b>Evening rush</b>',null,4.5);
+  seg('lane-you','21:30','22:15','Nurse baby to sleep',null,5);
+
+  // husband
+  seg('lane-hub','4:30','6:00','Home; calls at 5:55','neutral');
+  seg('lane-hub','6:00','16:00','At work','away');
+  seg('lane-hub','16:00','17:00','Home, resting','neutral');
+  seg('lane-hub','17:00','19:30','Dinner (improvised ~half the time)','neutral');
+  seg('lane-hub','19:30','21:30','Evening rush','neutral');
+  seg('lane-hub','21:30','22:15','Lies w/ Shayne','neutral');
+
+  // kids
+  seg('lane-kids','5:55','8:00','<b>Sean: on his own ✓</b>','neutral');
+  seg('lane-kids','8:00','8:45','Samyah up 7:30–8 (missed 6:00 wake)','neutral');
+  seg('lane-kids','10:30','11:30','Shayne w/ teens ~2–3 days/wk','neutral');
+  seg('lane-kids','11:30','12:30','Lunch: fend for selves','neutral');
+  seg('lane-kids','12:30','16:00','Capable, but move on reminders only; check-ins skipped','neutral');
+  seg('lane-kids','19:00','20:00','Eat separately','neutral');
+
+  // pins
+  const pins=[['5:55','Baby wakes'],['7:15','9yo: checklist fight'],['7:45','"What\'s for breakfast?"'],['8:15','Tablet password'],['8:45','Morning Basket missed'],['10:50','Baby fussy mid-class'],['13:30','"Why are you just sitting there?"'],['15:00','Kids: "annoying"'],['17:30','Kids come to basement'],['20:15','Hard to stop work']];
+  const pl=document.getElementById('lane-pins');
+  pins.forEach(([a,l],i)=>{const p=document.createElement('div');p.className='pin';p.style.left=pct(t(a))+'%';p.style.top=((i%3)*30)+'px';p.textContent=l;pl.appendChild(p);});
+
+  // energy table
+  const E2=[
+    ['Night nursing / broken sleep',4.75,'"Incredibly draining." 4.5–5'],
+    ['Reminding and checking on the kids all day',5,'"Mentally draining"'],
+    ['Deciding meals on the spot',5,'Ahead of time it would be ~2–2.5'],
+    ['Early-morning work, 5:15–9:00 (interrupted)',4.5,'Nearly 4 hours ≈ 1 hour of focused work'],
+    ['Watching the baby and Shayne while working',4.5,''],
+    ['Afternoon and evening work (interrupted)',4.5,''],
+    ['Evening and bedtime rush',4.5,''],
+    ['Business work itself',4,'"But I enjoy my work"'],
+    ['Teaching (middles + co-op)',2,''],
+    ['Driving and appointments',2,'"Not really draining to drive"'],
+  ];
+  const et=document.getElementById('energy');
+  E2.forEach(([n,v,note])=>{const c=v>=4.75?'var(--d5)':v>=4.5?'var(--d45)':v>=4?'var(--d4)':'var(--d2)';
+    et.insertAdjacentHTML('beforeend',`<tr><td>${n}</td><td><span class="meter" style="width:${v*22}px;background:${c}"></span> <span class="sans" style="font-size:8.5pt">${v===4.75?'4.5–5':v}</span></td><td><span class="tag t">YOU SAID</span> ${note}</td></tr>`);});
+</script>
+</body>
+</html>
